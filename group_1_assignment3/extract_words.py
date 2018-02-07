@@ -22,7 +22,7 @@ def main():
     valuelist=list(set(uniquedict.values()))
     valuelist.sort()
 
-
+    print ("hello")
     for i in valuelist:
         count=0
         for key in uniquedict:
