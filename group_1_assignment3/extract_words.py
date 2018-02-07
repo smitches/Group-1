@@ -1,4 +1,5 @@
 def main():
+    uniquedict = dict();
     in_file = open("tale_of_two_cities.txt","r")
     allwords=open("allwords.txt","w")
     unique=open("uniquewords.txt","w")
@@ -12,7 +13,22 @@ def main():
                 if character.isalpha():
                     writeword+=character
             allwords.write(writeword+'\n')
+            if writeword in uniquedict:
+                uniquedict[writeword]+=1
+            else:
+                uniquedict[writeword]=1
+                unique.write(writeword+'\n')
             
+    valuelist=list(set(uniquedict.values()))
+    valuelist.sort()
+
+
+    for i in valuelist:
+        count=0
+        for key in uniquedict:
+            if uniquedict[key]>=i:
+                count+=1
+        freq.write(str(i)+": "+ str(count)+'\n')
     allwords.close()
     unique.close()
     freq.close()
