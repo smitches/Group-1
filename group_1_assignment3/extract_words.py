@@ -9,9 +9,9 @@ def main():
             word=word.lower()
             writeword=''
             for character in word:
-                if character.isalpha:
+                if character.isalpha():
                     writeword+=character
-            allwords.write(word+'\n')
+            allwords.write(writeword+'\n')
             
     allwords.close()
     unique.close()
