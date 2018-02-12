@@ -3,7 +3,7 @@ PFont courier;
 int Size;
 void setup(){
   size (700,600);
-  background(255);
+  background(0);
   Size=32;
   courier = createFont("Courier",Size);
   lines = loadStrings("uniquewords.txt");
@@ -14,16 +14,37 @@ void draw() {
   color orange = color(244,182,66);
   color [] colors={blue,pink,orange};
   textFont(courier);
-  
-  for (int i=25; i<585;){
-    for (int j=0; j<700;){
-      int newWord = int(random(lines.length));
-      fill(colors[int(random(0,3))]);
-      if (j+textWidth(lines[newWord])>=700){break;}
-      text(lines[newWord],j,i);
-      j+=textWidth(lines[newWord]+5);
+
+  textAlign(RIGHT);
+  String leftbox="", rightbox="", bottombox="";
+  textLeading(30);
+  while (leftbox.length()<500){
+      String newWord = lines[int(random(lines.length))];
+      if (newWord.length()>10){continue;}
+      fill(color(30,144,255));
+      leftbox+=newWord+" ";
+
+//      if (j+textWidth(lines[newWord])>=700){break;}
+      println(leftbox);
+       
     }
-    i+=Size;
+    text(leftbox,0,25,350,300);
+  textAlign(CENTER);
+  while (bottombox.length()<1500){
+    String newWord = lines[int(random(lines.length))];
+    if (newWord.length()>10){continue;}
+    fill(color(255,67,67));
+    bottombox+=newWord+" ";
   }
+  text(bottombox,25,300,650,300);
+  textAlign(LEFT);
+    while (rightbox.length()<500){
+      String newWord = lines[int(random(lines.length))];
+      if (newWord.length()>10){continue;}
+      fill(color(255));
+      rightbox+=newWord+" ";
+    }
+    text(rightbox,400,25,300,300);
+
   noLoop();
 }
