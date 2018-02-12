@@ -1,9 +1,11 @@
 int numUniqueWords;
 int DiffArray[];
+int totalWords;
+
 void setup(){
-  String[] lines = loadStrings("uniquewords.txt");
+  size(640, 360);
+  noStroke();
   String[] FreqLines = loadStrings("wordfrequency.txt");
-  numUniqueWords = lines.length;
   int SizeWords = FreqLines.length;
   int intArray[];
   intArray = new int[SizeWords];
@@ -13,6 +15,7 @@ void setup(){
     String[] num = freqline.split(" ");
     intArray[i] = int(num[1]);
   }
+  totalWords = intArray[0];
   for(int j = 0; j < intArray.length; j++){
     if (j != intArray.length - 1) {
       int Diff = intArray[j] - intArray[j+1];
@@ -24,20 +27,41 @@ void setup(){
 }
 
 int[] AngleArray(int[] array, int total) {
-  int AngleArray[];
-  AngleArray = new int[array.length];
-  for(int i = 0; i < array.length; i++){
+  int modAA[];
+  int AA[];
+  int sum = 0;
+  int idxLen = 0;
+  int max = array.length;
+  AA = new int[max];
+  for(int i = 0; i < max; i++){
     float angle = (float)array[i]/total*360;
     int newAngle = Math.round(angle);
-    AngleArray[i] = newAngle;
+    AA[i] = newAngle;
   }
-  return(AngleArray);
+  for(int j = 0; j < max; j++) {
+    if (AA[j] == 1) {
+      idxLen = j;
+      break;
+    }
+  }
+  modAA = new int[idxLen+1];
+  for(int k = 0; k < max; k++) {
+    if ((AA[k] != 1 || AA[k] != 0) && k < idxLen) {
+      modAA[k] = AA[k];
+      sum += AA[k];
+    }
+  }
+  int onePercent = 360 - sum;
+  modAA[idxLen] = onePercent;
+  println(modAA);
+  return(modAA);
 }
 
 
 void draw() {
   background(100);
-  pieChart(300, AngleArray(DiffArray, numUniqueWords));
+  pieChart(300, AngleArray(DiffArray, totalWords));
+  noLoop();
 }
 
 void pieChart(float diameter, int[] data) {
