@@ -4,7 +4,7 @@ def main():
     allwords=open("allwords.txt","w")
     
     unique=open("a3_novelvisualization/uniquewords.txt","w")
-    uniquecopy=open("a3_wordfrequency/uniquewords.txt","w")
+    
     freq=open("a3_wordfrequency/wordfrequency.txt","w")
     for line in in_file:
         wordlist=line.split()
@@ -20,7 +20,7 @@ def main():
             else:
                 uniquedict[writeword]=1
                 unique.write(writeword+'\n')
-                uniquecopy.write(writeword+'\n')
+                
                 
             
     valuelist=list(set(uniquedict.values()))
