@@ -1,0 +1,2 @@
+The python script file can be run normally on terminal and this will produce three text files with all the text from the novel that was chosen. Then, once you hit the run button, the novelvisualization.pde will generate a random group of text that was taken from the novel. Finally, again if the run button is clicked, the wordfrequency.pde will generate a visual  
+(pie chart) to show the frequency of the words in the wordfrequency.txt. 
