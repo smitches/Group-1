@@ -1,10 +1,11 @@
+int numUniqueWords;
+int DiffArray[];
 void setup(){
   String[] lines = loadStrings("uniquewords.txt");
   String[] FreqLines = loadStrings("wordfrequency.txt");
-  int numUniqueWords = lines.length;
+  numUniqueWords = lines.length;
   int SizeWords = FreqLines.length;
   int intArray[];
-  int DiffArray[];
   intArray = new int[SizeWords];
   DiffArray = new int[SizeWords];
   for(int i = 0; i < FreqLines.length; i++){
@@ -22,20 +23,21 @@ void setup(){
   }
 }
 
-int AngleArray[](array, total) {
+int[] AngleArray(int[] array, int total) {
   int AngleArray[];
   AngleArray = new int[array.length];
   for(int i = 0; i < array.length; i++){
-    float angle = array[i]/total*360;
+    float angle = (float)array[i]/total*360;
     int newAngle = Math.round(angle);
     AngleArray[i] = newAngle;
   }
+  return(AngleArray);
 }
 
 
 void draw() {
   background(100);
-  pieChart(300, AngleArray[](DiffArray, numUniqueWords));
+  pieChart(300, AngleArray(DiffArray, numUniqueWords));
 }
 
 void pieChart(float diameter, int[] data) {
