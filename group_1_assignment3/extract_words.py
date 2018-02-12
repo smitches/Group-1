@@ -2,9 +2,9 @@ def main():
     uniquedict = dict();
     in_file = open("tale_of_two_cities.txt","r")
     allwords=open("allwords.txt","w")
-    unique=open("uniquewords.txt","w")
-    uniquecopy=open("a3_novelvisualization/uniquewords.txt","w")
-    freq=open("wordfrequency.txt","w")
+    
+    unique=open("a3_novelvisualization/uniquewords.txt","w")
+    freq=open("a3_wordfrequency/wordfrequency.txt","w")
     for line in in_file:
         wordlist=line.split()
         for word in wordlist:
@@ -19,7 +19,7 @@ def main():
             else:
                 uniquedict[writeword]=1
                 unique.write(writeword+'\n')
-                uniquecopy.write(writeword+'\n')
+                
             
     valuelist=list(set(uniquedict.values()))
     valuelist.sort()
@@ -33,6 +33,5 @@ def main():
         freq.write(str(i)+": "+ str(count)+'\n')
     allwords.close()
     unique.close()
-    uniquecopy.close()
     freq.close()
 main()
