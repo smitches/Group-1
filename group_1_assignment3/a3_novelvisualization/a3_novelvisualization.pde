@@ -5,7 +5,7 @@ void setup(){
   size (700,600);
   background(0);
   Size=32;
-  courier = createFont("cour.tff",Size);
+  courier = createFont("cour.ttf",Size);
   lines = loadStrings("uniquewords.txt");
 }
 void draw() {
