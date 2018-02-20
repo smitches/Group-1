@@ -11,7 +11,7 @@ class Car {
   Car(float x, float y, color c, float r){
     shapeMode(CENTER);
     this.car = createShape(GROUP);
-    this.car.translate(x,y);
+    //this.car.translate(x,y);
     this.x=x;
     this.y=y;
     this.direction=1;
@@ -19,16 +19,16 @@ class Car {
     fill(255);
     lwheel = loadShape("Wheel.svg");
     lwheel.scale(.38);
-    lwheel.translate(x,y+200);
+    lwheel.translate(-10,333);
     rwheel = loadShape("Wheel.svg");
     rwheel.scale(.38);
-    rwheel.translate(x+150,y+200);
+    rwheel.translate(147,333);
     fill(c);
-    PShape body = createShape(RECT, this.x,this.y,100,50);
+    PShape body = createShape(RECT, 0,100,100,50);
     fill(255);
     noStroke();
-    PShape left_wheel = createShape(ELLIPSE, this.x+80,this.y+50,r,r);
-    PShape right_wheel = createShape(ELLIPSE, this.x+20, this.y+50, r, r);
+    PShape left_wheel = createShape(ELLIPSE, 20,150,40,40);
+    PShape right_wheel = createShape(ELLIPSE, 80,150, 40, 40);
     this.car.addChild(body);
     this.car.addChild(left_wheel);
     this.car.addChild(right_wheel);
@@ -43,7 +43,7 @@ class Car {
   void Display(){
     shapeMode(CENTER);
     shape(this.car,this.x,this.y);
-    //shape(this.car,this.x-width, this.y);
+    shape(this.car,this.x-width, this.y);
     //shape(this.car,this.x+width,this.y);
     //shape(this.car,this.x,this.y+height);
     //shape(this.car,this.x,this.y-height);
