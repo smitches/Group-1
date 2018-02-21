@@ -2,19 +2,21 @@ class Car {
   color c;
   float x;
   float y;
-  float direction;
+  float directionx, directiony;
   PShape car;
   PShape lwheel;
   PShape rwheel;
   float angle;
+  float tx=20, ty=100;
   
   Car(float x, float y, color c, float r){
     shapeMode(CENTER);
     this.car = createShape(GROUP);
-    //this.car.translate(x,y);
+    this.car.translate(tx,ty);
     this.x=x;
     this.y=y;
-    this.direction=1;
+    this.directionx=1;
+    this.directiony=0;
     this.c=c;
     fill(255);
     lwheel = loadShape("Wheel.svg");
@@ -37,26 +39,47 @@ class Car {
     
   }
   void Move(){
-    if (this.x>=width){this.x-=width;}
-    this.x+=direction;
+    if (this.x>=width-150&&this.directionx==1){
+      //this.x-=width;
+      this.directionx=0;
+      this.directiony=-1;
+      this.car.translate(-50,200);
+      this.car.rotate(HALF_PI*3);
+      this.y-=30;
+    }
+    if (this.y>=height-330&&this.directiony==1){
+      this.directionx=1;
+      this.directiony=0;
+      this.car.resetMatrix();
+      this.car.translate(tx,ty);
+      this.y+=50;
+}
+    if (this.y<=-200&&this.directiony==-1){
+      this.directionx=-1;
+      this.directiony=0;
+      this.car.translate(-100,20);
+      this.car.rotate(HALF_PI*3);
+      this.car.translate(-110,30);
+  }
+    if (this.x<=15&&this.directionx==-1){
+      this.directionx=0; 
+      this.directiony=1;
+      this.car.rotate(HALF_PI*3);
+      this.car.translate(-140,-60);
+    }
+
+    this.x+=directionx;
+    this.y+=directiony;
+    
   }
   void Display(){
     shapeMode(CENTER);
     shape(this.car,this.x,this.y);
-    shape(this.car,this.x-width, this.y);
-    //shape(this.car,this.x+width,this.y);
-    //shape(this.car,this.x,this.y+height);
-    //shape(this.car,this.x,this.y-height);
     this.lwheel.translate(64,64);
     this.lwheel.rotate(.03);
     this.lwheel.translate(-64,-64);
     this.rwheel.translate(64,64);
     this.rwheel.rotate(.03);
     this.rwheel.translate(-64,-64);
-    //float x = 150;
-    //float y = 250;
-    //this.car.translate(x,y);
-    //this.car.rotate(-.01);
-    //this.car.translate(-x,-y);
   }
 }
