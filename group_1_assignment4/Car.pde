@@ -46,6 +46,7 @@ class Car {
       this.car.translate(-50,200);
       this.car.rotate(HALF_PI*3);
       this.y-=30;
+      engine.play();
     }
     if (this.y>=height-330&&this.directiony==1){
       this.directionx=1;
@@ -53,6 +54,7 @@ class Car {
       this.car.resetMatrix();
       this.car.translate(tx,ty);
       this.y+=50;
+      engine.play();
 }
     if (this.y<=-200&&this.directiony==-1){
       this.directionx=-1;
@@ -60,12 +62,14 @@ class Car {
       this.car.translate(-100,20);
       this.car.rotate(HALF_PI*3);
       this.car.translate(-110,30);
+      engine.play();
   }
     if (this.x<=15&&this.directionx==-1){
       this.directionx=0; 
       this.directiony=1;
       this.car.rotate(HALF_PI*3);
       this.car.translate(-140,-60);
+      engine.play();
     }
 
     this.x+=directionx;
