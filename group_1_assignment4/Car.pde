@@ -26,6 +26,8 @@ class Car {
     rwheel.scale(.38);
     rwheel.translate(147,333);
     fill(c);
+    stroke(0);
+    strokeWeight(3);
     PShape body = createShape(RECT, 0,100,100,50);
     fill(255);
     noStroke();
@@ -56,7 +58,7 @@ class Car {
       this.y+=50;
       engine.play();
 }
-    if (this.y<=-200&&this.directiony==-1){
+    if (this.y<=0&&this.directiony==-1){
       this.directionx=-1;
       this.directiony=0;
       this.car.translate(-100,20);
