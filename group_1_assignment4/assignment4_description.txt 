@@ -1,0 +1,7 @@
+The intended animation as stated in the progress report was to have three cars driving around the perimeter of the screen while two cats are wagging their tails and running into each other and the cars along with two clouds overhead with rain pouring down. We also added an extra feature- a car engine sound when play button is hit. The classes that were implemented were a Car, Cloud and Cat class. These three classes were then called in the main pde file to display the animation. We were able to accomplish implementing all the objects and sub-animations just as we had drafted it. 
+
+Brian- Car class 
+Rachel-Cat class
+Krishti- Cloud class
+
+Everyone added their classes onto the main pde file. 
