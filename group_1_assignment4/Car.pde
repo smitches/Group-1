@@ -9,7 +9,7 @@ class Car {
   float angle;
   float tx=20, ty=100;
   
-  Car(float x, float y, color c, float r){
+  Car(float x, float y, color c){
     shapeMode(CENTER);
     this.car = createShape(GROUP);
     this.car.translate(tx,ty);

@@ -27,7 +27,7 @@ class Cloud {
     this.directionx=direction;
     this.cloud = loadShape("cloud.svg"); 
     //this.rain = createShape(RECT, this.x, this.y, 100, 100);       
-    this.unit.addChild(this.cloud);
+    //this.unit.addChild(this.cloud);
     //this.unit.addChild(this.whitecloud);
     //this.unit.addChild(this.rain);
   }
@@ -51,7 +51,7 @@ class Cloud {
   }
   void Display(){
     shapeMode(CENTER); 
-    shape(this.unit, this.x,this.y); 
+    //shape(this.unit, this.x,this.y); 
     //shape(this.rain);
    
   }    
