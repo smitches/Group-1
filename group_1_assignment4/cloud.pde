@@ -1,6 +1,7 @@
 class Cloud {
   //color c; 
-  float x,y; 
+  float x,y,z;
+  
   float directionx; 
   PShape unit, cloud, rain, whitecloud;
 
@@ -8,28 +9,18 @@ class Cloud {
   Cloud(float x, float direction){
     shapeMode(CENTER); 
     //ellipseMode(CORNERS);
-    //this.unit = createShape(GROUP); 
-    
-    //this.whitecloud=createShape(GROUP);
-    //PShape item= createShape(RECT,100,100,70,50);
-    //this.whitecloud.addChild(item);
-    
-    //item=createShape(ELLIPSE,75,100,125,150);
-    //this.whitecloud.addChild(item);
-    
-    //item=createShape(ELLIPSE, 150, 120, 200, 100); 
-    //this.whitecloud.addChild(item); 
-    
-    //this.rain = loadShape("rain.svg"); 
-    
+    this.unit = createShape(GROUP); 
+    this.z = 1;
     this.x = x; 
     this.y = 10;
     this.directionx=direction;
     this.cloud = loadShape("cloud.svg"); 
-    //this.rain = createShape(RECT, this.x, this.y, 100, 100);       
-    //this.unit.addChild(this.cloud);
-    //this.unit.addChild(this.whitecloud);
-    //this.unit.addChild(this.rain);
+    cloud.scale(2); 
+    this.rain = loadShape("rain.svg"); 
+    rain.scale(0.2);
+    rain.translate(0,150);
+    this.unit.addChild(cloud);
+    this.unit.addChild(rain);
   }
   
   void Move(){
@@ -42,17 +33,15 @@ class Cloud {
     if(this.x==width)//(change width to whatever number works)
     {this.x=-1;}
     this.x+=this.directionx;
- 
-  }
-  void rain(){
     
+    this.rain.translate(0, this.z);
+    if (frameCount % 50 == 0){
+      this.z *= -1;}
+  }
   
-    
-  }
   void Display(){
     shapeMode(CENTER); 
-    //shape(this.unit, this.x,this.y); 
-    //shape(this.rain);
+    shape(this.unit, this.x,this.y); 
    
   }    
 }
