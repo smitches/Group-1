@@ -28,9 +28,9 @@ class Stack {
   void Display(){
     if (piled){
       pushMatrix();
-      translate(initx/2+(x-initx),0,0);
+      translate(initx+(x-initx),0,0);
       rotateY(angle);
-      translate(initx/2-(x-initx),0,0);
+      translate(-initx-(x-initx),0,0);
       
       pushMatrix();
       translate(x,y,z);
