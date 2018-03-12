@@ -1,8 +1,11 @@
 Stack stack1,stack2;
+Box box1 box2;
 void setup(){
   size(650,650,P3D);
   stack1 = new Stack(000,100,0);
   stack2 = new Stack(300,-100,0);
+  box1 = new Box();
+  box2 = new Box();
 }
 
 void draw(){
@@ -10,7 +13,10 @@ void draw(){
   background(0);
   stack1.Move();
   stack1.Display();
-  stack2.Move();
-  stack2.Display();
-  stack1.stack.rotateZ(.01);
+  //stack2.Move();
+  //stack2.Display();
+  //stack1.stack.rotateZ(.01);
+  
+  box1.Display();
+  box2.Display();
 }
