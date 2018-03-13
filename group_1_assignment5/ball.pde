@@ -30,6 +30,8 @@ class Ball {
   void Display(){
   
   fill(185, 66, 244); 
+  pushMatrix();
+  translate(x,y,z);
     pushMatrix(); 
     rotateX(radians(frameCount*3)); 
     rotateY(radians(frameCount*3)); 
@@ -48,5 +50,6 @@ class Ball {
     sphereDetail(10); 
     sphere(50); 
     popMatrix(); 
+    popMatrix();
   }
 }
