@@ -1,6 +1,6 @@
 class Box {
   float x, y, min_x, min_y, max_x, max_y, dx, dy;
-  Box(float x, float y, float min_x, float min_y, float max_x, float max_y) {
+  Box(float x, float y) {
     this.x = x;
     this.y = y;
     this.dx = 10;
@@ -35,14 +35,14 @@ class Box {
     
     pushMatrix();
     
-    translate(x, 0, 0);
+    translate(x, 400, 0);
     fill(80, 50, 100);
     box(100, 100, 100);
     
     fill(245, 195, 65);
-    translate(0, y, 0);
+    translate(0, y+400, 0);
     sphere(50);
     
-    popMatrix();
+   popMatrix();
   }
 }

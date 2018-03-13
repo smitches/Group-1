@@ -1,4 +1,5 @@
 class Stack {
+  PShape stack;
   float x, y, z,initx;
   float subx,suby,subz, angle,direction;
   Stack(float x, float y, float z){
@@ -6,6 +7,7 @@ class Stack {
     initx=x;
     subx=100;suby=40;subz=100;
     direction=1;
+    stack = createShape(GROUP);
   }
   
   void Move(){
