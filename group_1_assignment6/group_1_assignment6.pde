@@ -1,7 +1,8 @@
-Fountain f1;
+Fountain f1, f2;
 float counter=0, windmagnitude, windangle;
 int watercount=50;
 Water [] waterlist = new Water[watercount];
+Water [] waterlist2 = new Water[watercount];
 PVector wind;
 String windtext;
 void setup(){size (700,700,P3D);
@@ -9,11 +10,13 @@ void setup(){size (700,700,P3D);
   //camera(width/2,0,0,width/2,height/2,0,0,0,1);
   
   //make fountain 1
-  f1=new Fountain(width/2,height-175);
+  f1=new Fountain(width/2+150,height-175);
+  f2=new Fountain(width/2-150,height-175);
  
   //make water droplets
   for (int i=0; i<watercount; i++){
     waterlist[i]= new Water(10,15,f1);
+    waterlist2[i]=new Water(10,15,f2);
   }
   
 }
@@ -36,6 +39,13 @@ void draw(){
     w.applyGravity();
     w.applyForce(wind);
   }
+  f2.Display();
+  for (Water w:waterlist2){
+    w.Move();
+    w.Display();
+    w.applyGravity();
+    w.applyForce(wind);
+  }
 }
 
 void determineWind(){
@@ -46,5 +56,6 @@ void determineWind(){
 
 void mousePressed(){
   waterlist[int(counter%watercount)].vy=-9;
+  waterlist2[int(counter%watercount)].vy=-9;
   counter+=1;
 }
