@@ -31,7 +31,7 @@ void draw(){
   strokeWeight(10);
   point(75,95);
   if (frameCount%200==0){determineWind();}
-  if (frameCount%15==0){mousePressed();}
+  if (frameCount%10==0){mousePressed();}
   f1.Display();
   for (Water w:waterlist){
     w.Move();
