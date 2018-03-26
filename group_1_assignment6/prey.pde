@@ -15,7 +15,8 @@ class Flock {
 
 class Prey{
   float x,y,r;
-  PVector v;  
+  PVector v; 
+  PVector a;
   Prey(float x,float y,PVector v)
   {
     this.x = x;
@@ -45,7 +46,6 @@ class Prey{
   }
   void update(Flock flock){
     PVector vel = Together(this, flock);
-    print(vel);
     this.v = vel;
   }
   void Move(){
