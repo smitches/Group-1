@@ -1,8 +1,7 @@
 class Flock {
-  ArrayList<Prey> preys; // An ArrayList for all the boids
-
+  ArrayList<Prey> preys; 
   Flock() {
-    preys = new ArrayList<Prey>(); // Initialize the ArrayList
+    preys = new ArrayList<Prey>();
   }
 
   void addPrey(Prey p) {
@@ -11,13 +10,14 @@ class Flock {
 }
 
 class Prey{
-  float x,y;
+  float x,y,r;
   PVector v;  
   Prey(float x,float y,PVector v)
   {
     this.x = x;
     this.y = y;
     this.v = v;
+    this.r = 2;
  }
 }
 
