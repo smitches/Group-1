@@ -5,6 +5,8 @@ Water [] waterlist = new Water[watercount];
 Water [] waterlist2 = new Water[watercount];
 PVector wind;
 String windtext;
+
+
 void setup(){size (700,700,P3D);
   determineWind();
   //camera(width/2,0,0,width/2,height/2,0,0,0,1);

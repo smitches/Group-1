@@ -1,4 +1,4 @@
-class Prey {
+class Prey{
   float x,y;
   PVector v;  
   Prey(float x,float y,PVector v)
@@ -9,12 +9,12 @@ class Prey {
  }
 }
 
-PVector Alignment(prey, ArrayList<Prey> arrlist) {
+PVector Alignment(Prey prey, ArrayList<Prey> arrlist) {
     PVector vel = new PVector(0,0);
-    var nc = 0;
-    for (Integer bird : arrlist) {
+    float nc = 0;
+    for (Prey bird : arrlist) {
       if (bird != prey) {
-        if (bird.dist(prey) < 300) {
+        if ((bird.v).dist(prey.v) < 300) {
           vel.x += bird.v.x;
           vel.y += bird.v.y;
           nc += 1;
@@ -30,12 +30,12 @@ PVector Alignment(prey, ArrayList<Prey> arrlist) {
     return vel;
 }
 
-PVector Cohesion(prey, arrlist) {
+PVector Cohesion(Prey prey, ArrayList<Prey> arrlist) {
     PVector vel = new PVector(0,0);
-    var nc = 0;
-    for (Integer bird : arrlist) {
+    float nc = 0;
+    for (Prey bird : arrlist) {
       if (bird != prey) {
-        if (bird.dist(prey) < 300) {
+        if ((bird.v).dist(prey.v) < 300) {
           vel.x += bird.x;
           vel.y += bird.y;
           nc += 1;
@@ -52,12 +52,12 @@ PVector Cohesion(prey, arrlist) {
     return vel;
 }
 
-PVector Separation(prey, arrlist) {
+PVector Separation(Prey prey, ArrayList<Prey> arrlist) {
     PVector vel = new PVector(0,0);
-    var nc = 0;
-    for (Integer bird : arrlist) {
+    float nc = 0;
+    for (Prey bird : arrlist) {
       if (bird != prey) {
-        if (bird.dist(prey) < 300) {
+        if ((bird.v).dist(prey.v) < 300) {
           vel.x += bird.x - prey.x;
           vel.y += bird.y - prey.y;
           nc += 1;
