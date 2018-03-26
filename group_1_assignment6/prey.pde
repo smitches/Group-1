@@ -3,9 +3,13 @@ class Flock {
   Flock() {
     preys = new ArrayList<Prey>();
   }
-
   void addPrey(Prey p) {
     preys.add(p);
+  }
+  void run() {
+    for (Prey p: preys){
+      p.run(this);
+    }
   }
 }
 
@@ -20,16 +24,32 @@ class Prey{
     this.r = 2;
  }
   void render() {
+    float theta = this.v.heading2D() +  radians(90);
     fill(200, 100);
     stroke(255);
     pushMatrix();
     translate(this.x, this.y);
+    rotate(theta);
     beginShape(TRIANGLES);
     vertex(0, -r*2);
     vertex(-r, r*2);
     vertex(r, r*2);
     endShape();
-    popMatrix();}
+    popMatrix();
+  }
+  void update(Flock flock){
+    PVector vel = Together(this, flock.preys);
+    this.v = vel;
+  }
+  void Move(){
+    this.x+=v.x;
+    this.y+=v.y;
+  }
+  void run(Flock flock) {
+    update(flock);
+    Move();
+    render();
+  }
 }
 
 PVector Alignment(Prey prey, ArrayList<Prey> arrlist) {
@@ -98,11 +118,13 @@ PVector Separation(Prey prey, ArrayList<Prey> arrlist) {
     return vel;
 }
 
-void Together(Prey prey, ArrayList<Prey> arrlist) {
+PVector Together(Prey prey, ArrayList<Prey> arrlist) {
+  PVector vel = new PVector(0,0);
   PVector velA = Alignment(prey, arrlist);
   PVector velC = Cohesion(prey, arrlist);
   PVector velS = Separation(prey, arrlist);
   prey.v.x += velA.x + velC.x + velS.x;
   prey.v.y += velA.y + velC.y + velS.y;
-  prey.v.normalize();
+  vel = prey.v.normalize();
+  return vel;
 }

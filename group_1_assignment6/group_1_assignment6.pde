@@ -3,7 +3,8 @@ float counter=0, windmagnitude, windangle;
 int watercount=50;
 Water [] waterlist = new Water[watercount];
 Water [] waterlist2 = new Water[watercount];
-Flock flock1, flock2;
+Flock flock1 = new Flock();
+Flock flock2 = new Flock();
 PVector wind;
 String windtext;
 
@@ -57,6 +58,8 @@ void draw(){
     w.applyGravity();
     w.applyForce(wind);
   }
+  flock1.run();
+  flock2.run();
 }
 
 void determineWind(){
