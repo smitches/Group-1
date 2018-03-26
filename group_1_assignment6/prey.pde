@@ -19,6 +19,17 @@ class Prey{
     this.v = v;
     this.r = 2;
  }
+  void render() {
+    fill(200, 100);
+    stroke(255);
+    pushMatrix();
+    translate(this.x, this.y);
+    beginShape(TRIANGLES);
+    vertex(0, -r*2);
+    vertex(-r, r*2);
+    vertex(r, r*2);
+    endShape();
+    popMatrix();}
 }
 
 PVector Alignment(Prey prey, ArrayList<Prey> arrlist) {
