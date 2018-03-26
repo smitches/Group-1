@@ -1,3 +1,15 @@
+class Flock {
+  ArrayList<Prey> preys; // An ArrayList for all the boids
+
+  Flock() {
+    preys = new ArrayList<Prey>(); // Initialize the ArrayList
+  }
+
+  void addPrey(Prey p) {
+    preys.add(p);
+  }
+}
+
 class Prey{
   float x,y;
   PVector v;  
@@ -73,4 +85,13 @@ PVector Separation(Prey prey, ArrayList<Prey> arrlist) {
     vel.y *= -1;
     vel = vel.normalize();
     return vel;
+}
+
+void Together(Prey prey, ArrayList<Prey> arrlist) {
+  PVector velA = Alignment(prey, arrlist);
+  PVector velC = Cohesion(prey, arrlist);
+  PVector velS = Separation(prey, arrlist);
+  prey.v.x += velA.x + velC.x + velS.x;
+  prey.v.y += velA.y + velC.y + velS.y;
+  prey.v.normalize();
 }

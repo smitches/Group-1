@@ -3,6 +3,7 @@ float counter=0, windmagnitude, windangle;
 int watercount=50;
 Water [] waterlist = new Water[watercount];
 Water [] waterlist2 = new Water[watercount];
+Flock flock1, flock2;
 PVector wind;
 String windtext;
 
@@ -20,6 +21,14 @@ void setup(){size (700,700,P3D);
     waterlist[i]= new Water(10,15,f1);
     waterlist2[i]=new Water(10,15,f2);
   }
+  for (int j = 0; j < 150; j++) {
+    PVector v1, v2;
+    v1 = new PVector(random(50), random(50));
+    v2 = new PVector(random(50), random(50));
+    flock1.addPrey(new Prey(width/2,height/2, v1));
+    flock2.addPrey(new Prey(width/2,height/2, v2));
+  }
+  
   
 }
 void draw(){
