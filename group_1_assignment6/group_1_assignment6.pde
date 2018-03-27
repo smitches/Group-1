@@ -7,6 +7,7 @@ Flock flock1 = new Flock();
 //Flock flock2 = new Flock();
 PVector wind;
 String windtext;
+Ball b1, b2;
 
 
 void setup(){size (700,700,P3D);
@@ -16,6 +17,9 @@ void setup(){size (700,700,P3D);
   //make fountain 1
   f1=new Fountain(width/2+150,height-175);
   f2=new Fountain(width/2-150,height-175);
+  
+  b1=new Ball(width/2-150, 50,30,3,0,color(200,0,50));
+  b2=new Ball(width/2+200, 50,30,3,0,color(50,225,125));
  
   //make water droplets
   for (int i=0; i<watercount; i++){
@@ -50,16 +54,27 @@ void draw(){
     w.Display();
     w.applyGravity();
     w.applyForce(wind);
-  }
+    w.collide(b1);
+    w.collide(b2);
+}
   f2.Display();
   for (Water w:waterlist2){
     w.Move();
     w.Display();
     w.applyGravity();
     w.applyForce(wind);
+    w.collide(b1);
+    w.collide(b2);
   }
+  b1.display();
+  b1.applyForce(wind);
+  b1.applyGravity();
+  b2.display();
+  b2.applyGravity();
+  b2.applyForce(wind);
   flock1.run();
   //flock2.run();
+  b1.collide(b2);
 }
 
 void determineWind(){

@@ -16,6 +16,15 @@ class Water{
     vx+=ax;
     vy+=ay;
   }
+  void collide(Ball b){
+    if (dist(b.x,b.y,x,y)<30){
+      float angle = atan2(b.y-y, b.x-x);
+      //println(angle);
+      //vx*=cos(angle);
+      //vy*=sin(angle);
+      vx=b.vx*.6;vy=.6*b.vy;
+    }
+  }
   void applyGravity(){
     if(this.x!=f.x || this.y!=(f.y+75)){
       this.vy+=.07;
