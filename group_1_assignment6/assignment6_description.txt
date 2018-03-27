@@ -1,0 +1,5 @@
+The simulation depicts two fountains which both have water spouting out in an upward motion and that shoots back down. There is also a wind tracker on the side that calculates the speed of the wind. Then, there is a flock of birds that are flying in one direction using separation, cohesion and alignment. 
+
+Brian- worked on fountains
+Rachel- worked on flocking of birds
+Krishti- worked on description and README
