@@ -12,13 +12,14 @@ color background= color(50,50,50), web=color(00), territory=color(0);
 PImage screen;
 Boolean justClosed=false;
 
-void setup(){size(700,700);  //cb= new CircleButton(20,30,40);
-  rb = new RectButton(40,30,40,30);
+void setup(){size(700,700);  
+  //cb= new CircleButton(20,30,40);
+  rb = new RectButton(140,50,140,50);
   screen= loadImage("screen1.png").get(00,200,700,500);
   p=new Player();
   m=new Monster();
-  fill(255);
-  cb = new CircleButton(30, 30, 30, "Play");
+  //fill(255);
+  cb = new CircleButton(90, 90, 90);
   //frameRate(10);
   
   
@@ -37,11 +38,16 @@ void draw(){
   rb.display();
   
   //fill(200,0,0);
-  if (cb.inRange()){
+  if (cb.inRange() || rb.inRange()){
     fill(255); 
   }
+  //fill(238,244,66);
+  text("PLAY!", 75, 95); 
+  fill(244,229,66);
+  text("PAUSE", 190, 70);
   
-  text("percentage: "+str(filled)+"/"+str(total),50,50);
+  fill(0);
+  text("percentage: "+str(filled)+"/"+str(total),10,20);
 }
 
 void drawLose(){
@@ -65,10 +71,10 @@ void keyPressed(){
 void mouseClicked(){
   if (cb.inRange()){//do the pause/play
   
-    println("PAUSE"); 
+    println("PLAY"); 
   }
   
   if (rb.inRange()){
-    println("PLAY"); 
+    println("PAUSE"); 
   }
 }
