@@ -1,5 +1,5 @@
 Player p;
-Monster m;
+Monster m1, m2;
 
 
 boolean rect = true; 
@@ -18,7 +18,8 @@ void setup(){size(700,700);
   rb = new RectButton(140,50,140,50);
   screen= loadImage("screen1.png").get(00,200,700,500);
   p=new Player();
-  m=new Monster();
+  m1=new Monster();
+  m2=new Monster();
   //fill(255);
   cb = new CircleButton(90, 90, 90);
   //frameRate(10);
@@ -36,7 +37,8 @@ void draw(){
   cb.display();
   if(justClosed){p.play(false);save("screen1.png");screen= loadImage("screen1.png").get(0,200,700,500);justClosed=false;}
   p.play(true);
-  m.play();
+  m1.play();
+  m2.play();
   rb.display();
   
   //fill(200,0,0);
