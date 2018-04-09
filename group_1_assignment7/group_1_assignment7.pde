@@ -2,12 +2,15 @@ Player p;
 Monster m;
 
 CircleButton cb;
-color background= color(200,50,50), web=color(00), territory=color(0);
+color background= color(50,50,50), web=color(00), territory=color(0);
 PImage screen;
+Boolean justClosed=false;
+
 void setup(){size(700,700);  cb= new CircleButton(20,20,30); 
-  screen= loadImage("screen1.png").get(0,0,700,500);
+  screen= loadImage("screen1.png").get(00,200,700,500);
   p=new Player();
   m=new Monster();
+  //frameRate(10);
 }
 void draw(){
   background(255);
@@ -17,7 +20,8 @@ void draw(){
     total+=1;
   }
   cb.display();
-  p.play();
+  if(justClosed){p.play(false);save("screen1.png");screen= loadImage("screen1.png").get(0,200,700,500);justClosed=false;}
+  p.play(true);
   m.play();
   
   text("percentage: "+str(filled)+"/"+str(total),50,50);

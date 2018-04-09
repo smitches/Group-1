@@ -1,11 +1,13 @@
 class Player{
   PVector direction; 
   float speed,x,y;
-  PShape body;
+  PImage[] sprites= new PImage[4];
   ArrayList<PVector> vertexs = new ArrayList<PVector>();
   ArrayList<PVector> corners = new ArrayList<PVector>();
   ArrayList<PShape> area = new ArrayList<PShape>();
   Timer timer;
+  Boolean alive=true;
+  int spriteH=128/4, spriteW=32;
   Player(){
     speed=.5;
     direction= new PVector(0,0);
@@ -19,8 +21,12 @@ class Player{
     corners.add(LRC);
     x=width/2;y=200;
     fill(0);
-    body= createShape(RECT,0,0,50,50);
-    //timer = new Timer(15, pshapearray.length); FOR ANIMATION
+    timer = new Timer(55, 4);
+    PImage kritter=loadImage("kritter.png");
+    for (int i=0; i<4; i++){
+      sprites[i]=kritter.get(0,i*spriteH, spriteW,spriteH);
+      sprites[i].resize(100,100);
+    }
     for (int i=0; i<screen.width*screen.height;i++){
       screen.pixels[i]=background;
     }
@@ -41,19 +47,17 @@ class Player{
       screen.updatePixels();
     }
   }
-  void display(){
+  void display(Boolean b){
     image(screen,0,200);
-    fill(0);
-    shape(body,x,y);
+    if(b){image(sprites[timer.getIndex()],x-48,y-40);}
+    else{image(screen,0,200);}
     for (int j=0; j < area.size(); j++){
       shape(area.get(j),0,0);
     }
-    //do animations here
-    
   }
-  void play(){
+  void play(Boolean b){
     move();
-    display();
+    display(b);
   }
   void fillArea(ArrayList<PVector> arrlist){
   noStroke();
@@ -62,7 +66,6 @@ class Player{
   lastTurn = new PVector(x,y);
   vertexs.add(lastTurn);
   PShape web;
-  print(arrlist);
   web = createShape();
   web.beginShape();
   for (int i=0; i < arrlist.size(); i++){
@@ -71,6 +74,21 @@ class Player{
   web.endShape(CLOSE);
   area.add(web);
   arrlist.clear();
+  justClosed=true;
+  }
+  void checkDie(Monster m){
+    if (screen.pixels[int(x+(y-200)*width)]==web){
+      alive=false;
+    }
+    if (screen.pixels[int(m.x+(m.y-200)*width)]==web){
+      alive=false;
+    }
+    if (dist(m.x,m.y,x,y)<50){
+      alive=false;
+    }
+    if (alive==false){
+      println("dead");
+    }
     
   }
   void changeDirection(){

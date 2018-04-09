@@ -1,17 +1,23 @@
 class Monster {
   PVector direction;
   float speed,x,y;
-  PShape body;
+  PImage[] sprites= new PImage[4];
   Timer timer;
   int lastTimerIndex;
+  
+  int spriteH=128/4, spriteW=32;
+ 
   
   Monster(){
     speed=.5;
     direction= new PVector(random(-1, 1),random(-1, 1));
     x=width/4;y=350;
-    fill(0,0,255);
-    body = createShape(RECT,0,0,50,50);
-    timer = new Timer(1000, 2);
+    PImage monster= loadImage("monster.png");
+    for (int i=0;i<4;i++){
+      sprites[i]=monster.get(0,i*spriteH,spriteW,spriteH);
+      sprites[i].resize(100,100);
+    }
+    timer = new Timer(55,4);
     lastTimerIndex = 0;
   }
   
@@ -32,8 +38,7 @@ class Monster {
   }
   
   void display(){
-    
-    shape(body,x,y);
+    image(sprites[timer.getIndex()],x-48,y-40);
   }
   
   void play() {
