@@ -1,13 +1,22 @@
 class Player{
-  PVector direction;
+  PVector direction; 
   float speed,x,y;
   PShape body;
   ArrayList<PVector> vertexs = new ArrayList<PVector>();
+  ArrayList<PVector> corners = new ArrayList<PVector>();
   ArrayList<PShape> area = new ArrayList<PShape>();
   Timer timer;
   Player(){
     speed=.5;
     direction= new PVector(0,0);
+    PVector ULC = new PVector(1.0,200.0);
+    PVector URC = new PVector(649.0,201.0);
+    PVector LLC = new PVector(1.0,649.0);
+    PVector LRC = new PVector(649.0,649.0);
+    corners.add(ULC);
+    corners.add(URC);
+    corners.add(LLC);
+    corners.add(LRC);
     x=width/2;y=200;
     fill(0);
     body= createShape(RECT,0,0,50,50);
@@ -47,11 +56,11 @@ class Player{
     display();
   }
   void fillArea(ArrayList<PVector> arrlist){
+  noStroke();
   fill(204, 102, 0);
   PVector lastTurn;
   lastTurn = new PVector(x,y);
   vertexs.add(lastTurn);
-  
   PShape web;
   print(arrlist);
   web = createShape();
@@ -82,4 +91,9 @@ class Player{
       direction=new PVector(1,0);
     }
   }
+  //int findSides(PVector v1, PVector v2){
+    //int side1, side2;
+      
+  //}
+    
 }
