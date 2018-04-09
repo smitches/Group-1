@@ -112,7 +112,9 @@ class Player{
   }
   
   void checkDie(Monster m){
-    if (screen.pixels[int(x+(y-200)*width)]==web){
+    if(direction.x==0&&direction.y==0){return;}
+    print(screen.pixels[int(x+(y-200)*width)]);
+    if (screen.pixels[int(x+direction.x+(y+direction.y-200)*width)]==web){
       alive=false;
       isPlaying=false;
       

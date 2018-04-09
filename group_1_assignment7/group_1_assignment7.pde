@@ -22,7 +22,7 @@ void setup(){size(700,700);
   m2=new Monster();
   //fill(255);
   cb = new CircleButton(90, 90, 90);
-  //frameRate(10);
+  //frameRate(5);
   
   
 }
@@ -40,6 +40,8 @@ void draw(){
   m1.play();
   m2.play();
   rb.display();
+  p.checkDie(m1);
+  p.checkDie(m2);
   
   //fill(200,0,0);
   if (cb.inRange() || rb.inRange()){
@@ -58,7 +60,7 @@ void draw(){
 }
 
 void drawLose(){
-  
+  background(255);
   fill(0); 
   textSize(40);
   text("LOSE", 20, 60); 
