@@ -48,6 +48,7 @@ void draw(){
   
   fill(0);
   text("percentage: "+str(filled)+"/"+str(total),10,20);
+  //strokeWeight(20);
 }
 
 void drawLose(){
@@ -71,10 +72,12 @@ void keyPressed(){
 void mouseClicked(){
   if (cb.inRange()){//do the pause/play
   
-    println("PLAY"); 
+    //println("PLAY"); 
+    loop();
   }
   
   if (rb.inRange()){
-    println("PAUSE"); 
+    //println("PAUSE"); 
+    noLoop(); 
   }
 }
