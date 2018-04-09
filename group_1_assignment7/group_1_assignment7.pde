@@ -11,6 +11,7 @@ RectButton rb;
 color background= color(50,50,50), web=color(00), territory=color(0);
 PImage screen;
 Boolean justClosed=false;
+Boolean isPlaying = true;
 
 void setup(){size(700,700);  
   //cb= new CircleButton(20,30,40);
@@ -25,6 +26,7 @@ void setup(){size(700,700);
   
 }
 void draw(){
+  if (isPlaying){
   background(255);
   int filled=0,total=0;
   for (int i=0; i<screen.width*screen.height;i++){
@@ -49,6 +51,8 @@ void draw(){
   fill(0);
   text("percentage: "+str(filled)+"/"+str(total),10,20);
   //strokeWeight(20);
+  }
+  else{drawLose();}
 }
 
 void drawLose(){
@@ -56,13 +60,15 @@ void drawLose(){
   fill(0); 
   textSize(40);
   text("LOSE", 20, 60); 
+  text("Press 'Enter' to Restart",20,100);
 
 }
 
 void keyPressed(){
   p.changeDirection();
   if (keyCode==ENTER){
-    //restart the game
+     setup();
+     isPlaying=true;
   }
   if (key=='p' || key=='P'){
     //play/pause
