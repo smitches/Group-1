@@ -2,6 +2,8 @@ class Player{
   PVector direction;
   float speed,x,y;
   PShape body;
+  int curx, cury;
+  ArrayList<PVector> vertex = new ArrayList<PVector>();
   Timer timer;
   Player(){
     speed=.5;
@@ -39,17 +41,37 @@ class Player{
   void play(){
     move();display();
   }
+  void fillArea(){
+  
+    
+    
+  }
   void changeDirection(){
+    float upperX, upperY, lowerX, lowerY;
     if (keyCode==UP){
+      PVector turn;
+      turn = new PVector(x,y);
+      vertex.add(turn);
       direction=new PVector(0,-1);
+      
     }
     if (keyCode==DOWN){
+      PVector turn;
+      turn = new PVector(x,y);
+      vertex.add(turn);
       direction=new PVector(0,1);
+      
     }
     if (keyCode==LEFT){
+      PVector turn;
+      turn = new PVector(x,y);
+      vertex.add(turn);
       direction=new PVector(-1,0);
     }
     if (keyCode==RIGHT){
+      PVector turn;
+      turn = new PVector(x,y);
+      vertex.add(turn);
       direction=new PVector(1,0);
     }
   }
