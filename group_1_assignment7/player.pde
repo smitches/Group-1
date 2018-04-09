@@ -3,7 +3,8 @@ class Player{
   float speed,x,y;
   PShape body;
   int curx, cury;
-  ArrayList<PVector> vertex = new ArrayList<PVector>();
+  ArrayList<PVector> vertexs = new ArrayList<PVector>();
+  ArrayList<PShape> area = new ArrayList<PShape>();
   Timer timer;
   Player(){
     speed=.5;
@@ -24,6 +25,7 @@ class Player{
       if (y<200){y+=2;}
       if (x>width-50){x-=2;}
       if (y>height-50){y-=2;}
+      fillArea(vertexs);
     }
     if (screen.pixels[int(x+(y-200)*width)]==background){
       screen.loadPixels();
@@ -35,43 +37,49 @@ class Player{
     image(screen,0,200);
     fill(0);
     shape(body,x,y);
+    for (int j=0; j < area.size(); j++){
+      shape(area.get(j),0,0);
+    }
     //do animations here
     
   }
   void play(){
-    move();display();
+    move();
+    display();
   }
-  void fillArea(){
+  void fillArea(ArrayList<PVector> arrlist){
+  fill(204, 102, 0);
+  PVector lastTurn;
+  lastTurn = new PVector(x,y);
+  vertexs.add(lastTurn);
   
-    
+  PShape web;
+  print(arrlist);
+  web = createShape();
+  web.beginShape();
+  for (int i=0; i < arrlist.size(); i++){
+    web.vertex(arrlist.get(i).x , arrlist.get(i).y);
+  }
+  web.endShape(CLOSE);
+  area.add(web);
+  arrlist.clear();
     
   }
   void changeDirection(){
-    float upperX, upperY, lowerX, lowerY;
-    if (keyCode==UP){
-      PVector turn;
-      turn = new PVector(x,y);
-      vertex.add(turn);
-      direction=new PVector(0,-1);
-      
+    PVector turn;
+    turn = new PVector(x,y);
+    vertexs.add(turn);
+    
+    if (keyCode==UP){ 
+        direction=new PVector(0,-1);
     }
     if (keyCode==DOWN){
-      PVector turn;
-      turn = new PVector(x,y);
-      vertex.add(turn);
       direction=new PVector(0,1);
-      
     }
     if (keyCode==LEFT){
-      PVector turn;
-      turn = new PVector(x,y);
-      vertex.add(turn);
       direction=new PVector(-1,0);
     }
     if (keyCode==RIGHT){
-      PVector turn;
-      turn = new PVector(x,y);
-      vertex.add(turn);
       direction=new PVector(1,0);
     }
   }
