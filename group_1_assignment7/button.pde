@@ -4,7 +4,7 @@ class Button{
 }
 class CircleButton extends Button{
   float r;
-  CircleButton(float x, float y, float r){
+  CircleButton(float x, float y, float r, String label){
     super(x, y);
     this.r =r;
   }
