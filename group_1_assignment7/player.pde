@@ -2,7 +2,6 @@ class Player{
   PVector direction;
   float speed,x,y;
   PShape body;
-  int curx, cury;
   ArrayList<PVector> vertexs = new ArrayList<PVector>();
   ArrayList<PShape> area = new ArrayList<PShape>();
   Timer timer;
