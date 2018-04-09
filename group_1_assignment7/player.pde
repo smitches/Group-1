@@ -1,6 +1,7 @@
 class Player{
-  PVector direction; 
+  PVector direction, sides; 
   float speed,x,y;
+  int side1, side2;
   PImage[] sprites= new PImage[4];
   ArrayList<PVector> vertexs = new ArrayList<PVector>();
   ArrayList<PVector> corners = new ArrayList<PVector>();
@@ -17,8 +18,8 @@ class Player{
     PVector LRC = new PVector(649.0,649.0);
     corners.add(ULC);
     corners.add(URC);
-    corners.add(LLC);
     corners.add(LRC);
+    corners.add(LLC);
     x=width/2;y=200;
     fill(0);
     timer = new Timer(55, 4);
@@ -62,10 +63,43 @@ class Player{
   void fillArea(ArrayList<PVector> arrlist){
   noStroke();
   fill(204, 102, 0);
-  PVector lastTurn;
+  PVector lastTurn, twoSides, extra1;
   lastTurn = new PVector(x,y);
   vertexs.add(lastTurn);
-  PShape web;
+  PVector first = arrlist.get(0);
+  PVector last = arrlist.get(arrlist.size()-1);
+  twoSides = findSides(first, last);
+  if (abs(twoSides.x-twoSides.y) != 2) {
+    if (twoSides.x == 0){
+      extra1 = new PVector(last.x, first.y);
+      arrlist.add(extra1);
+    }else if (twoSides.x == 1){
+      extra1 = new PVector(first.x, last.y);
+      arrlist.add(extra1);
+    }else if (twoSides.x == 2){
+      extra1 = new PVector(last.x, first.y);
+      arrlist.add(extra1);
+    }else if (twoSides.x == 3){
+      extra1 = new PVector(first.x, last.y);
+      arrlist.add(extra1);
+    }
+  }else {
+    if (twoSides.x == 0){
+      arrlist.add(corners.get(2));
+      arrlist.add(corners.get(1));
+    }else if (twoSides.x == 2){
+      arrlist.add(corners.get(1));
+      arrlist.add(corners.get(2));
+    }else if (twoSides.x == 1){
+      arrlist.add(corners.get(0));
+      arrlist.add(corners.get(1));
+    }else if (twoSides.x == 3){
+      arrlist.add(corners.get(1));
+      arrlist.add(corners.get(0));
+    }
+  }
+  print(arrlist);
+  PShape web; 
   web = createShape();
   web.beginShape();
   for (int i=0; i < arrlist.size(); i++){
@@ -109,9 +143,32 @@ class Player{
       direction=new PVector(1,0);
     }
   }
-  //int findSides(PVector v1, PVector v2){
-    //int side1, side2;
-      
-  //}
-    
+  PVector findSides(PVector v1, PVector v2){
+      if (v1.y <= 201.0) {
+        side1 = 0;
+      }
+      if (v1.x >= 649.0) {
+        side1 = 1;
+      }
+      if (v1.y >= 649.0) {
+        side1 = 2;
+      }
+      if (v1.x <= 1.0) {
+        side1 = 3;
+      }
+       if (v2.y <= 201.0) {
+        side2 = 0;
+      }
+      if (v2.x >= 649.0) {
+        side2 = 1;
+      }
+      if (v2.y >= 649.0) {
+        side2 = 2;
+      }
+      if (v2.x <= 1.0) {
+        side2 = 3;
+      }
+      sides = new PVector(side1,side2);
+      return(sides);
+  }   
 }

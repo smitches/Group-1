@@ -17,11 +17,14 @@ class Monster {
       sprites[i]=monster.get(0,i*spriteH,spriteW,spriteH);
       sprites[i].resize(100,100);
     }
-    timer = new Timer(55,4);
+    timer = new Timer(1000,2);
     lastTimerIndex = 0;
   }
   
   void move(){
+    if (screen.pixels[int(x+(y-200)*width)]==territory){
+      direction = new PVector(-3*direction.x, direction.y);
+    }
     if (timer.getIndex() != lastTimerIndex) {
       direction = new PVector(random(-1, 1), random(-1, 1));
       lastTimerIndex = timer.getIndex();
