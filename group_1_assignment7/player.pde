@@ -50,6 +50,9 @@ class Player{
     if (screen.pixels[int(x+(y-200)*width)]==background){
       screen.loadPixels();
       screen.pixels[int(x+(y-200)*width)]=web;
+      screen.pixels[int(x-direction.x+(y-200)*width)]=web;
+      screen.pixels[int(x+(y-direction.y-200)*width)]=web;
+      
       screen.updatePixels();
     }
   }
@@ -108,7 +111,7 @@ class Player{
     }
     updatePixels();
   }
-  //print(arrlist);
+  ////print(arrlist);
   PShape web; 
   web = createShape();
   web.beginShape();
@@ -128,24 +131,16 @@ class Player{
     try{if (screen.pixels[int(x+direction.x+(y+direction.y-200)*width)]==web){
       alive=false;
       isPlaying=false;
-      println("dead web");
+      ////println("dead web");
       
     }} catch(Exception E){}
     
-    //If monster steps on your web
-    if (screen.pixels[int(m.x+(m.y-200)*width)]==web){
-      alive=false;
-      isPlaying=false;
-      println("dead mon web");
-      println(m.x,m.y);
-      println(x,y);
-      
-    }
+    
     //Killed by monster
     if (dist(m.x,m.y,x,y)<30){
       alive=false;
       isPlaying=false;
-      println("dead kill");
+      //println("dead kill");
      
     }
     if (alive==false){

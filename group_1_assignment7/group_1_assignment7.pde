@@ -22,7 +22,7 @@ void setup(){size(700,700);
   screen= loadImage("screen1.png").get(00,200,700,500);
   p=new Player();
   m1=new Monster();
-  //m2=new Monster();
+  m2=new Monster();
   //fill(255);
   cb = new CircleButton(110, 85, 94);
   //frameRate(5);
@@ -50,10 +50,10 @@ p.area.clear();
 }
   p.play(true);
   m1.play();
-  //m2.play();
+  m2.play();
   rb.display();
   p.checkDie(m1);
-  //p.checkDie(m2);
+  p.checkDie(m2);
   
   //fill(200,0,0);
   if (cb.inRange() || rb.inRange()){
@@ -67,8 +67,9 @@ p.area.clear();
   fill(0);
   float pct = float(round((filled/total)*10000))/100;
   
-  println(pct);
-  text("You Own: "+pct+"%",width-300,95);
+  //println(pct);
+  text("You Own: "+pct+"%",width-300,125);
+  text("60% needed to win!",width-330,60);
   if (p.checkWin(pct)){
     drawWin();
   }
@@ -79,7 +80,7 @@ p.area.clear();
 
 void drawLose(){
   background(244,86,66);
-  fill(66,110,244); 
+  fill(255); 
   textSize(40); 
   text("YOU LOST!", 250, 60); 
   image(gameover, 60, 100); 
@@ -90,7 +91,7 @@ void drawLose(){
 
 void drawWin(){
   background(244,241,66);
-  fill(66,110,244); 
+  fill(0); 
   textSize(40);
   text("YOU WIN!", 250, 60); 
   image(winner, 60, 100); 
@@ -113,12 +114,12 @@ void keyPressed(){
 void mouseClicked(){
   if (cb.inRange()){//do the pause/play
   
-    //println("PLAY"); 
+    ////println("PLAY"); 
     loop();
   }
   
   if (rb.inRange()){
-    //println("PAUSE"); 
+    ////println("PAUSE"); 
     noLoop(); 
   }
 
