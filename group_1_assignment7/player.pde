@@ -199,4 +199,11 @@ class Player{
   Boolean outBounds(){
     return x<1||y<201||x>width-1||y>height-1;
   }
+  Boolean checkWin(float pct){
+    if (pct > 60.0){
+      return true;
+    }else {
+      return false;
+    }
+  }
 }
