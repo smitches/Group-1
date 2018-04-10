@@ -1,0 +1,8 @@
+The goal of this game is for the kritter to be able to carve out as much space as possible on the screen before the monster gets to it. If the kritter runs into the monster or is unable to create space for itself before the monster reaches the kritter or an open area then the player loses. There is a score tally on the top right hand that displays the percentage of the grid that the player owns currently as they acquire more space. There are also two buttons- a pause and play button that the player can use at anytime to stop or start the game again. 
+
+Brian- Button class, player and timer classes
+Rachel- monster and timer classes
+Krishti- sprite images of the monster and kritter and button formations 
+
+
+
