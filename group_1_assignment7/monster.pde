@@ -10,7 +10,7 @@ class Monster {
   
   Monster(){
     speed=.5;
-    direction= new PVector(random(-1, 1),random(-1, 1));
+    direction= new PVector(random(-2, 2),random(-2, 2));
     x=width/4;y=350;
     PImage monster= loadImage("monster.png");
     for (int i=0;i<4;i++){
@@ -47,10 +47,10 @@ class Monster {
 
     
     x+=direction.x;y+=direction.y;
-    if (x<1||y<201||x>width-1||y>height-1){
+    if (x<0||y<200||x>width-1||y>height-1){
       direction = new PVector(0,0);
-      if (x<1){x+=2;}
-      if (y<201){y+=2;}
+      if (x<0){x+=2;}
+      if (y<200){y+=2;}
       if (x>width-1){x-=2;}
       if (y>height-1){y-=2;}
       delay=millis();
@@ -59,9 +59,6 @@ class Monster {
   
   void display(){
     image(sprites[timer.getIndex()],x-47,y-40);
-    strokeWeight(4);
-    stroke(255);
-    point(x,y);
   }
   
   void play() {
