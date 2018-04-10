@@ -73,9 +73,8 @@ p.area.clear();
   fill(0);
   float pct = float(round((filled/total)*10000))/100;
   
-  //println(pct);
-  text("You Own: "+pct+"%",width-300,125);
-  text("50% needed to win!",width-330,60);
+  println(pct);
+  text("You Own: "+pct+"%",width-300,95);
   if (p.checkWin(pct)){
     drawWin();
   }
@@ -86,7 +85,7 @@ p.area.clear();
 
 void drawLose(){
   background(244,86,66);
-  fill(255); 
+  fill(66,110,244); 
   textSize(40); 
   text("YOU LOST!", 250, 60); 
   image(gameover, 60, 100); 
@@ -97,7 +96,7 @@ void drawLose(){
 
 void drawWin(){
   background(244,241,66);
-  fill(0); 
+  fill(66,110,244); 
   textSize(40);
   text("YOU WIN!", 250, 60); 
   image(winner, 60, 100); 
@@ -120,12 +119,12 @@ void keyPressed(){
 void mouseClicked(){
   if (cb.inRange()){//do the pause/play
   
-    ////println("PLAY"); 
+    //println("PLAY"); 
     loop();
   }
   
   if (rb.inRange()){
-    ////println("PAUSE"); 
+    //println("PAUSE"); 
     noLoop(); 
   }
 
