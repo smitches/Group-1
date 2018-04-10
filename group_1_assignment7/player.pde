@@ -13,9 +13,9 @@ class Player{
     speed=.5;
     direction= new PVector(0,0);
     PVector ULC = new PVector(1.0,200.0);
-    PVector URC = new PVector(699.0,201.0);
-    PVector LLC = new PVector(1.0,699.0);
-    PVector LRC = new PVector(699.0,699.0);
+    PVector URC = new PVector(649.0,201.0);
+    PVector LLC = new PVector(1.0,649.0);
+    PVector LRC = new PVector(649.0,649.0);
     corners.add(ULC);
     corners.add(URC);
     corners.add(LRC);
@@ -36,10 +36,10 @@ class Player{
     x+=direction.x;y+=direction.y;
     if (outBounds()){
       direction = new PVector(0,0);
-      if (x<1){x+=2;}
-      if (y<201){y+=2;}
-      if (x>width-5){x-=2;}
-      if (y>height-5){y-=2;}
+      if (x<0){x+=2;}
+      if (y<200){y+=2;}
+      if (x>width-50){x-=2;}
+      if (y>height-50){y-=2;}
       fillArea(vertexs);
     }
     
@@ -174,25 +174,25 @@ class Player{
     }
   }
   PVector findSides(PVector v1, PVector v2){
-      if (v1.y <= 200.0) {
+      if (v1.y <= 201.0) {
         side1 = 0;
       }
-      if (v1.x >= 699.0-5) {
+      if (v1.x >= 649.0) {
         side1 = 1;
       }
-      if (v1.y >= 699.0-5) {
+      if (v1.y >= 649.0) {
         side1 = 2;
       }
       if (v1.x <= 1.0) {
         side1 = 3;
       }
-       if (v2.y <= 200.0) {
+       if (v2.y <= 201.0) {
         side2 = 0;
       }
-      if (v2.x >= 699.0-5) {
+      if (v2.x >= 649.0) {
         side2 = 1;
       }
-      if (v2.y >= 699.0-5) {
+      if (v2.y >= 649.0) {
         side2 = 2;
       }
       if (v2.x <= 1.0) {
@@ -202,7 +202,7 @@ class Player{
       return(sides);
   }   
   Boolean outBounds(){
-    return x<0||y<200||x>width-5||y>height-5;
+    return x<0||y<200||x>width-50||y>height-50;
   }
   Boolean checkWin(float pct){
     if (pct > 60.0){
