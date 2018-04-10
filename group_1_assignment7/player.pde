@@ -38,8 +38,13 @@ class Player{
       direction = new PVector(0,0);
       if (x<1){x+=2;}
       if (y<201){y+=2;}
-      if (x>width-1){x-=2;}
-      if (y>height-1){y-=2;}
+      if (x>width-5){x-=2;}
+      if (y>height-5){y-=2;}
+      fillArea(vertexs);
+    }
+    
+    if (screen.pixels[int(x+(y-200)*width)]==territory&&screen.pixels[int(x-direction.x+(y-direction.y-200)*width)]==web){
+      vertexs.add(new PVector(x,y));
       fillArea(vertexs);
     }
     if (screen.pixels[int(x+(y-200)*width)]==background){
@@ -169,35 +174,35 @@ class Player{
     }
   }
   PVector findSides(PVector v1, PVector v2){
-      if (v1.y <= 198.0) {
+      if (v1.y <= 200.0) {
         side1 = 0;
       }
-      if (v1.x >= 698.0) {
+      if (v1.x >= 699.0-5) {
         side1 = 1;
       }
-      if (v1.y >= 698.0) {
+      if (v1.y >= 699.0-5) {
         side1 = 2;
       }
-      if (v1.x <= 2.0) {
+      if (v1.x <= 1.0) {
         side1 = 3;
       }
-       if (v2.y <= 198.0) {
+       if (v2.y <= 200.0) {
         side2 = 0;
       }
-      if (v2.x >= 698.0) {
+      if (v2.x >= 699.0-5) {
         side2 = 1;
       }
-      if (v2.y >= 698.0) {
+      if (v2.y >= 699.0-5) {
         side2 = 2;
       }
-      if (v2.x <= 2.0) {
+      if (v2.x <= 1.0) {
         side2 = 3;
       }
       sides = new PVector(side1,side2);
       return(sides);
   }   
   Boolean outBounds(){
-    return x<1||y<201||x>width-1||y>height-1;
+    return x<0||y<200||x>width-5||y>height-5;
   }
   Boolean checkWin(float pct){
     if (pct > 60.0){
