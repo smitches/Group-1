@@ -4,7 +4,6 @@ class Monster {
   PImage[] sprites= new PImage[4];
   Timer timer;
   int lastTimerIndex;
-  
   int spriteH=128/4, spriteW=32;
  
   
@@ -23,7 +22,7 @@ class Monster {
   
   void move(){
     if (screen.pixels[int(x+(y-200)*width)]==territory){
-      direction = new PVector(-3*direction.x, direction.y);
+      direction = new PVector(-1*direction.x, -1*direction.y);
     }
     if (timer.getIndex() != lastTimerIndex) {
       direction = new PVector(random(-1, 1), random(-1, 1));
@@ -31,17 +30,21 @@ class Monster {
     }
     
     x+=direction.x;y+=direction.y;
-    if (x<0||y<200||x>width-50||y>height-50){
+    if (x<1||y<201||x>width-1||y>height-1){
       direction = new PVector(0,0);
-      if (x<0){x+=2;}
-      if (y<200){y+=2;}
-      if (x>width-50){x-=2;}
-      if (y>height-50){y-=2;}
+      if (x<1){x+=2;}
+      if (y<201){y+=2;}
+      if (x>width-1){x-=2;}
+      if (y>height-1){y-=2;}
     }
   }
   
   void display(){
-    image(sprites[timer.getIndex()],x-48,y-40);
+    image(sprites[timer.getIndex()],x-47,y-40);
+    strokeWeight(4);
+    stroke(255);
+    point(x,y);
+    point(x-47,y-40);
   }
   
   void play() {

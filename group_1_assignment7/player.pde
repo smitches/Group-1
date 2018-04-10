@@ -13,9 +13,9 @@ class Player{
     speed=.5;
     direction= new PVector(0,0);
     PVector ULC = new PVector(1.0,200.0);
-    PVector URC = new PVector(649.0,201.0);
-    PVector LLC = new PVector(1.0,649.0);
-    PVector LRC = new PVector(649.0,649.0);
+    PVector URC = new PVector(699.0,201.0);
+    PVector LLC = new PVector(1.0,699.0);
+    PVector LRC = new PVector(699.0,699.0);
     corners.add(ULC);
     corners.add(URC);
     corners.add(LRC);
@@ -36,10 +36,10 @@ class Player{
     x+=direction.x;y+=direction.y;
     if (outBounds()){
       direction = new PVector(0,0);
-      if (x<0){x+=2;}
-      if (y<200){y+=2;}
-      if (x>width-50){x-=2;}
-      if (y>height-50){y-=2;}
+      if (x<1){x+=2;}
+      if (y<201){y+=2;}
+      if (x>width-1){x-=2;}
+      if (y>height-1){y-=2;}
       fillArea(vertexs);
     }
     if (screen.pixels[int(x+(y-200)*width)]==background){
@@ -62,7 +62,7 @@ class Player{
   }
   void fillArea(ArrayList<PVector> arrlist){
   noStroke();
-  fill(204, 102, 0);
+  fill(territory);
   PVector lastTurn, twoSides, extra1;
   lastTurn = new PVector(x,y);
   vertexs.add(lastTurn);
@@ -132,6 +132,8 @@ class Player{
       alive=false;
       isPlaying=false;
       println("dead mon web");
+      println(m.x,m.y);
+      println(x,y);
       
     }
     //Killed by monster
@@ -167,34 +169,34 @@ class Player{
     }
   }
   PVector findSides(PVector v1, PVector v2){
-      if (v1.y <= 201.0) {
+      if (v1.y <= 198.0) {
         side1 = 0;
       }
-      if (v1.x >= 649.0) {
+      if (v1.x >= 698.0) {
         side1 = 1;
       }
-      if (v1.y >= 649.0) {
+      if (v1.y >= 698.0) {
         side1 = 2;
       }
-      if (v1.x <= 1.0) {
+      if (v1.x <= 2.0) {
         side1 = 3;
       }
-       if (v2.y <= 201.0) {
+       if (v2.y <= 198.0) {
         side2 = 0;
       }
-      if (v2.x >= 649.0) {
+      if (v2.x >= 698.0) {
         side2 = 1;
       }
-      if (v2.y >= 649.0) {
+      if (v2.y >= 698.0) {
         side2 = 2;
       }
-      if (v2.x <= 1.0) {
+      if (v2.x <= 2.0) {
         side2 = 3;
       }
       sides = new PVector(side1,side2);
       return(sides);
   }   
   Boolean outBounds(){
-    return x<0||y<200||x>width-50||y>height-50;
+    return x<1||y<201||x>width-1||y>height-1;
   }
 }
