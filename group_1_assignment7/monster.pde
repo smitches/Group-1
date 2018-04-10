@@ -5,6 +5,7 @@ class Monster {
   Timer timer;
   int lastTimerIndex;
   int spriteH=128/4, spriteW=32;
+  float delay;
  
   
   Monster(){
@@ -18,17 +19,32 @@ class Monster {
     }
     timer = new Timer(1000,2);
     lastTimerIndex = 0;
+    delay=50;
   }
   
   void move(){
-    if (screen.pixels[int(x+(y-200)*width)]==territory){
-      direction = new PVector(-1*direction.x, direction.y);
-      //lastTimerIndex = timer.getIndex();
+    if (y>height-5){
+      direction = new PVector(0,-1);
+      delay=millis()+1000;
     }
-    if (timer.getIndex() != lastTimerIndex) {
+    if (y<205){
+      direction = new PVector(0,1);
+      delay=millis()+1000;
+    }
+    if (x>width-5){
+      direction = new PVector(-1,0);
+      delay=millis()+1000;
+    }
+    if (x<5){
+      direction = new PVector(1,0);
+      delay=millis()+1000;
+    }
+    if (millis()>delay) {
       direction = new PVector(random(-1, 1), random(-1, 1));
-      lastTimerIndex = timer.getIndex();
+      delay=millis()+2500;
     }
+    
+
     
     x+=direction.x;y+=direction.y;
     if (x<0||y<200||x>width-1||y>height-1){
@@ -37,6 +53,7 @@ class Monster {
       if (y<200){y+=2;}
       if (x>width-1){x-=2;}
       if (y>height-1){y-=2;}
+      delay=millis();
     }
   }
   
