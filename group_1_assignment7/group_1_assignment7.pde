@@ -1,5 +1,7 @@
 Player p;
 Monster m1, m2;
+PImage gameover; 
+PImage winner; 
 
 
 boolean rect = true; 
@@ -25,6 +27,8 @@ void setup(){size(700,700);
   cb = new CircleButton(110, 85, 94);
   //frameRate(5);
   
+  gameover = loadImage("gameover.png");
+  winner = loadImage("winner.png"); 
   
 }
 void draw(){
@@ -74,20 +78,24 @@ p.area.clear();
 }
 
 void drawLose(){
-  background(255);
-  fill(0); 
-  textSize(40);
-  text("LOSE", 20, 60); 
-  text("Press 'Enter' to Play Again",20,100);
+  background(244,86,66);
+  fill(66,110,244); 
+  textSize(40); 
+  text("YOU LOST!", 250, 60); 
+  image(gameover, 60, 100); 
+  textSize(20); 
+  text("Press 'Enter' to Play Again",230,600);
 
 }
 
 void drawWin(){
-  background(255);
-  fill(0); 
+  background(244,241,66);
+  fill(66,110,244); 
   textSize(40);
-  text("Win", 20, 60); 
-  text("Press 'Enter' to Restart",20,100);
+  text("YOU WIN!", 250, 60); 
+  image(winner, 60, 100); 
+  textSize(20); 
+  text("Press 'Enter' to Restart",230,600);
 
 }
 
