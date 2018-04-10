@@ -42,6 +42,7 @@ justClosed=false;
 for(int i=0;i<screen.pixels.length;i++){
   if(screen.pixels[i]==web){screen.pixels[i]=territory;}
 }
+p.area.clear();
 }
   p.play(true);
   m1.play();
