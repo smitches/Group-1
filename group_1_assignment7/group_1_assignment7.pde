@@ -8,12 +8,13 @@ boolean circle = true;
 CircleButton cb;
 RectButton rb; 
 
-color background= color(50,50,50), web=color(00), territory=color(0);
+color background= color(50,50,50), web=color(255), territory=color(0);
 PImage screen;
 Boolean justClosed=false;
 Boolean isPlaying = true;
 
 void setup(){size(700,700);  
+  textSize(32);
   //cb= new CircleButton(20,30,40);
   rb = new RectButton(140,50,140,50);
   screen= loadImage("screen1.png").get(00,200,700,500);
@@ -35,7 +36,13 @@ void draw(){
     total+=1;
   }
   cb.display();
-  if(justClosed){p.play(false);save("screen1.png");screen= loadImage("screen1.png").get(0,200,700,500);justClosed=false;}
+  if(justClosed){p.play(false);save("screen1.png");
+screen= loadImage("screen1.png").get(0,200,700,500);
+justClosed=false;
+for(int i=0;i<screen.pixels.length;i++){
+  if(screen.pixels[i]==web){screen.pixels[i]=territory;}
+}
+}
   p.play(true);
   m1.play();
   m2.play();

@@ -34,7 +34,7 @@ class Player{
   }
   void move(){
     x+=direction.x;y+=direction.y;
-    if (outBounds()){
+    if (x<0||y<200||x>width-50||y>height-50){
       direction = new PVector(0,0);
       if (x<0){x+=2;}
       if (y<200){y+=2;}
@@ -97,11 +97,6 @@ class Player{
       arrlist.add(corners.get(1));
       arrlist.add(corners.get(0));
     }
-    loadPixels();
-    for(int i=0; i<screen.pixels.length;i++){
-      if (screen.pixels[i]==web){screen.pixels[i]=background;}
-    }
-    updatePixels();
   }
   //print(arrlist);
   PShape web; 
@@ -118,33 +113,21 @@ class Player{
   
   void checkDie(Monster m){
     if(direction.x==0&&direction.y==0){return;}
-    //Step on own web
-    
-    try{if (screen.pixels[int(x+direction.x+(y+direction.y-200)*width)]==web){
+    if (screen.pixels[int(x+direction.x+(y+direction.y-200)*width)]==web){
       alive=false;
       isPlaying=false;
-      println("dead web");
-      
-    }} catch(Exception E){}
-    
-    //If monster steps on your web
+    }
     if (screen.pixels[int(m.x+(m.y-200)*width)]==web){
       alive=false;
-      isPlaying=false;
-      println("dead mon web");
-      
+      isPlaying=false;  
     }
-    //Killed by monster
-    if (dist(m.x,m.y,x,y)<30){
+    if (dist(m.x,m.y,x,y)<50){
       alive=false;
       isPlaying=false;
-      println("dead kill");
-     
     }
     if (alive==false){
-      
+      println("dead");
       isPlaying=false;
-   
     }
     
   }
@@ -194,7 +177,4 @@ class Player{
       sides = new PVector(side1,side2);
       return(sides);
   }   
-  Boolean outBounds(){
-    return x<0||y<200||x>width-50||y>height-50;
-  }
 }
