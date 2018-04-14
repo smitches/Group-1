@@ -1,0 +1,678 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Fashion &amp; Style</title>
+    <link>https://www.nytimes.com/section/fashion?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/FashionandStyle.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2018  The New York Times Company</copyright>
+    <lastBuildDate>Fri, 13 Apr 2018 16:01:12 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Fashion &amp; Style</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/fashion?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>Is Stan Lee Being Held Prisoner by Real-Life Villains?</title>
+      <link>https://www.nytimes.com/2018/04/13/style/stan-lee-marvel-comics-elder-abuse.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/13/style/stan-lee-marvel-comics-elder-abuse.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/13/style/stan-lee-marvel-comics-elder-abuse.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/22/fashion/22STANLEE1/22STANLEE1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Ryan Pfluger for The New York Times</media:credit>
+      <description>The Hollywood Reporter published an investigation saying that Mr. Lee, 95, was the victim of elder abuse. We visited the Marvel Comics creator at his home. &#x201C;Nobody has more freedom,&#x201D; he said.</description>
+      <dc:creator>BEN WIDDICOMBE</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 15:22:08 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lee, Stan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Marvel Comics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Comic Books and Strips</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Elder Abuse</category>
+    </item>
+    <item>
+      <title>Modern Love: When Love Seems Too Easy to Trust</title>
+      <link>https://www.nytimes.com/2018/04/13/style/when-love-seems-too-easy-to-trust.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/13/style/when-love-seems-too-easy-to-trust.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/13/style/when-love-seems-too-easy-to-trust.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/15/fashion/15MODERNLOVE/merlin_136750311_2b149969-c1c0-4847-ab36-ebf033e2e7df-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Brian Rea</media:credit>
+      <description>A young woman thought true love would have all the anxiety and insecurity of a romantic comedy. When it didn&#x2019;t, that was even more worrisome.</description>
+      <dc:creator>ALI ELKIN</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 14:30:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Love (Emotion)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dating and Relationships</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Movies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">When Harry Met Sally (Movie)</category>
+    </item>
+    <item>
+      <title>love is ...: The Museum of &#x2018;Please Find Me&#x2019;</title>
+      <link>https://www.nytimes.com/2018/04/12/style/kennedy-airport-lost-and-found.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/style/kennedy-airport-lost-and-found.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/12/style/kennedy-airport-lost-and-found.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/11/fashion/11LOVEIS-LOSTFOUND/11LOVEIS-LOSTFOUND-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Aist&#x117; Stancikait&#x117;</media:credit>
+      <description>The Lost &amp; Found at Kennedy Airport is the last, best hope for travelers missing their iPads, meaningful snapshots and many, many wedding rings.</description>
+      <dc:creator>MAUD CASEY</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 21:54:15 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Love Is</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Lost and Found Property</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Kennedy International Airport (Queens, NY)</category>
+    </item>
+    <item>
+      <title>The Dress Doctor Is In</title>
+      <link>https://www.nytimes.com/2018/04/12/fashion/fashion-psychologist.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/fashion/fashion-psychologist.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/12/fashion/fashion-psychologist.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/fashion/05PSYCH/05PSYCH-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Cecilia Carlstedt</media:credit>
+      <description>Dawnn Karen of the Fashion Institute of Technology is a leader in the growing field of fashion psychology &#x2014; or why we want what we think we want.</description>
+      <dc:creator>JENNIFER MILLER</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 04:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Karen, Dawnn</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Psychology and Psychologists</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Fashion Institute of Technology</category>
+    </item>
+    <item>
+      <title>News Analysis: &#x2018;Our Bodies, Ourselves&#x2019;? It&#x2019;s Shelved</title>
+      <link>https://www.nytimes.com/2018/04/12/style/our-bodies-ourselves-book-publishing.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/style/our-bodies-ourselves-book-publishing.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/12/style/our-bodies-ourselves-book-publishing.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/fashion/12OURBODIES-1/12OURBODIES-1-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>An early cover of the women&#x2019;s health book &#x201C;Our Bodies, Ourselves,&#x201D; published by the Boston Women&#x2019;s Health Book Collective.</media:description>
+      <media:credit>Our Bodies Ourselves</media:credit>
+      <description>This book changed lives for decades. How will we know our bodies are normal now?</description>
+      <dc:creator>JESSICA VALENTI</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 16:04:43 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Our Bodies, Ourselves (Book)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women's Rights</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nonprofit Organizations</category>
+    </item>
+    <item>
+      <title>Social Q&#x2019;s: R.I.P. My Whole Family</title>
+      <link>https://www.nytimes.com/2018/04/12/style/family-death-lies-grief.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/style/family-death-lies-grief.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/12/style/family-death-lies-grief.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2011/07/28/fashion/social_inline/social_inline-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Christoph Niemann</media:credit>
+      <description>Burying grief and anger by denying your family&#x2019;s existence isn&#x2019;t a long-term solution, our columnist writes.</description>
+      <dc:creator>PHILIP GALANES</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 15:28:37 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Customs, Etiquette and Manners</category>
+    </item>
+    <item>
+      <title>Dress Designers Add Options for Plus-Size Brides</title>
+      <link>https://www.nytimes.com/2018/04/11/fashion/weddings/dress-designers-expand-options-for-plus-size-brides.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/fashion/weddings/dress-designers-expand-options-for-plus-size-brides.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/11/fashion/weddings/dress-designers-expand-options-for-plus-size-brides.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/15/fashion/15BiggerDresses1/15BiggerDresses1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Josefina Rodriguez tries on a gown by the designer <a href="https://www.justinalexander.com/en/">Justin Alexander</a> at a recent bridal show at RK Bridal in Manhattan. The dresses were created especially for curvy women, sizes 18 to 32.</media:description>
+      <media:credit>Rebecca Smeyne for The New York Times</media:credit>
+      <description>After years of being ignored, curvy brides are now finding more choices in wedding dresses as new fashion lines are rolling out.</description>
+      <dc:creator>ALIX STRAUSS</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 21:39:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dresses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Shopping and Retail</category>
+    </item>
+    <item>
+      <title>Yesterday in Styles: Wait, New Jersey Was Once Not Cool?</title>
+      <link>https://www.nytimes.com/2018/04/13/style/wait-new-jersey-was-once-not-cool.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/13/style/wait-new-jersey-was-once-not-cool.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/13/style/wait-new-jersey-was-once-not-cool.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/13/style/13yesterday-1/13yesterday-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>For years a punch line to snooty New Yorkers, New Jersey came into its own as a cultural hub in the 1990s, thanks to Lauryn Hill, Kevin Smith and &#x201C;The Sopranos.&#x201D;</description>
+      <dc:creator>ALEX WILLIAMS</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 16:00:00 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Nineteen Hundred Nineties</category>
+    </item>
+    <item>
+      <title>Vows: Homeless in Seattle, and Marrying Under the Overpass</title>
+      <link>https://www.nytimes.com/2018/04/13/fashion/weddings/homeless-wedding-in-seattle-under-interstate-overpass.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/13/fashion/weddings/homeless-wedding-in-seattle-under-interstate-overpass.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/13/fashion/weddings/homeless-wedding-in-seattle-under-interstate-overpass.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/15/fashion/15VOWS9/15VOWS9-moth-v3.jpg" medium="image" height="151" width="151"/>
+      <media:description>Michelle Vestal and Bob J. Kitcheon, who live in a tent community, share a kiss under the freeway in Seattle, where they married on March 18. A volunteer who served as the maid of honor made the wedding cake.</media:description>
+      <media:credit>Annabel Clark for The New York Times</media:credit>
+      <description>On the wedding day of Michelle Vestal and Bob J Kitcheon, Ms. Vestal had been clean from crack cocaine for 84 days. &#x201C;I would never have done it if it wasn&#x2019;t for him,&#x201D; she said.</description>
+      <dc:creator>CANDICE PIRES</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 10:00:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Homeless Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Marriages</category>
+    </item>
+    <item>
+      <title>I Was Skeptical About Ecstatic Dance</title>
+      <link>https://www.nytimes.com/2018/04/12/style/ecstatic-dance-nyc.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/style/ecstatic-dance-nyc.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/12/style/ecstatic-dance-nyc.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/fashion/12ECSTATICDANCE-1/12ECSTATICDANCE-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Ecstatic Dance NYC is monthly dance party. The dance floor rules include no phones, no photos, no talking.</media:description>
+      <media:credit>Deidre Schoo for The New York Times</media:credit>
+      <description>Maybe it was something about the phrase &#x201C;free-form movement in a judgment-free space.&#x201D;</description>
+      <dc:creator>ELLIE SHECHET</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 18:13:58 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dancing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Music</category>
+    </item>
+    <item>
+      <title>Modern Love: Modern Love Podcast: Jeffrey Bowyer-Chapman Reads &#x2018;A Brother as Significant as Any Other&#x2019;</title>
+      <link>https://www.nytimes.com/2018/04/11/style/modern-love-podcast-jeffrey-bowyer-chapman-.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/style/modern-love-podcast-jeffrey-bowyer-chapman-.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/11/style/modern-love-podcast-jeffrey-bowyer-chapman-.html?partner=rss&amp;emc=rss"/>
+      <description>This week, the &#x201C;UnReal&#x201D; star reads a story of familial love.</description>
+      <dc:creator>THE NEW YORK TIMES</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 20:18:41 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Podcasts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jeffrey Bowyer-Chapman</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Families and Family Life</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Homosexuality and Bisexuality</category>
+    </item>
+    <item>
+      <title>Love Is ...: 3 American Intimacies I Don&#x2019;t Get</title>
+      <link>https://www.nytimes.com/2018/04/11/style/american-dating-jimmy-o-yang.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/style/american-dating-jimmy-o-yang.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/11/style/american-dating-jimmy-o-yang.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/15/fashion/11LOVEIS-YANG3/merlin_136613538_7cb8eecc-ab11-4e51-8798-a4adb0d55b64-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Hanna Barczyk</media:credit>
+      <description>The author, a star of &#x201C;Silicon Valley,&#x201D; ponders some rituals he finds a little baffling.</description>
+      <dc:creator>JIMMY O. YANG</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 15:51:24 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Love Is</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Love (Emotion)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>Love Is ...: The Anxiety That Binds</title>
+      <link>https://www.nytimes.com/2018/04/11/style/anxiety-love-carmen-maria-machado.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/style/anxiety-love-carmen-maria-machado.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/11/style/anxiety-love-carmen-maria-machado.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/11/fashion/11LOVEIS-MACHADO/merlin_136674489_a184d6d9-4fca-4c65-8015-271a3f69f738-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Hanna Barczyk</media:credit>
+      <description>Managing uncertainty is a full-time job. But then again, so is marriage.</description>
+      <dc:creator>CARMEN MARIA MACHADO</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 17:15:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dating and Relationships</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Anxiety and Stress</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Love Is</category>
+    </item>
+    <item>
+      <title>Browsing: Who Said Fashion People Don&#x2019;t Like Food?</title>
+      <link>https://www.nytimes.com/2018/04/11/fashion/who-said-fashion-people-dont-like-food.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/fashion/who-said-fashion-people-dont-like-food.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/11/fashion/who-said-fashion-people-dont-like-food.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/fashion/12BROWSE-3/12BROWSE-3-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>Because they definitely love Dimes.</description>
+      <dc:creator>HAYLEY PHELAN</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 17:04:49 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
+    </item>
+    <item>
+      <title>Mariah Carey Opens Up About Bipolar Disorder</title>
+      <link>https://www.nytimes.com/2018/04/11/style/mariah-carey-bipolar-disorder.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/style/mariah-carey-bipolar-disorder.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/11/style/mariah-carey-bipolar-disorder.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/style/12carey1/12carey1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Mariah Carey told People magazine that she had not previously disclosed the diagnosis because &#x201C;I didn&#x2019;t want to carry around the stigma of a lifelong disease that would define me and potentially end my career.&#x201D;</media:description>
+      <media:credit>Jordan Strauss/Invision, via Associated Press</media:credit>
+      <description>The disclosure to People magazine marks one of the first instances in which a celebrity of Ms. Carey&#x2019;s stature has acknowledged mental health issues.</description>
+      <dc:creator>JONAH ENGEL BROMWICH</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 20:10:40 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Carey, Mariah</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Bipolar Disorder</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Pop and Rock Music</category>
+    </item>
+    <item>
+      <title>Critical Shopper: At Marni, Shopping the Good Shop Lollipop</title>
+      <link>https://www.nytimes.com/2018/04/11/fashion/marni-critical-shopper.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/fashion/marni-critical-shopper.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/11/fashion/marni-critical-shopper.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/fashion/12CRITIC-5/12CRITIC-5-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Sunglasses on display at Marni.</media:description>
+      <media:credit>Stefania Curto for The New York Times</media:credit>
+      <description>Reconsidering a fashion stalwart with a fresh infusion of childlike wonder and playfulness.</description>
+      <dc:creator>MATTHEW SCHNEIER</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 15:32:19 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shopping and Retail</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Risso, Francesco</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Marni Group</category>
+    </item>
+    <item>
+      <title>Lose Weight? No Way. Proud to Be a Bigger Bride.</title>
+      <link>https://www.nytimes.com/2018/04/11/fashion/weddings/lose-weight-no-way-proud-to-be-a-bigger-bride.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/fashion/weddings/lose-weight-no-way-proud-to-be-a-bigger-bride.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/11/fashion/weddings/lose-weight-no-way-proud-to-be-a-bigger-bride.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/15/fashion/weddings/15fatshame5/15fatshame5-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Kelsey Miller, a plus-size bride, on her wedding day. &#x201C;It&#x2019;s popular to declare yourself &#x2018;body positive&#x2019; and accepting of yourself, but the truth is: Bias is still very much out there.&#x201D;</media:description>
+      <media:credit>Katie Osgood</media:credit>
+      <description>Plus-size brides fight for respect in a wedding industry they say is focused on the size 2s.</description>
+      <dc:creator>TAMMY La GORCE</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 10:00:08 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Photography</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Weight</category>
+    </item>
+    <item>
+      <title>Love Is ...: For Judy Collins, Marriage Is a Song of Many Verses</title>
+      <link>https://www.nytimes.com/2018/04/11/style/judy-collins-marriage-louis-nelson.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/style/judy-collins-marriage-louis-nelson.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/11/style/judy-collins-marriage-louis-nelson.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/04/fashion/00LOVEIS-collins-1/00LOVEIS-collins-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The wedding of Judy Collins, left, and Louis Nelson at The Cathedral of St. John the Divine, in New York City on April 16, 1996.</media:description>
+      <media:credit>Edward Keating/The New York Times</media:credit>
+      <description>Ms. Collins, a.k.a. Sweet Judy Blue Eyes, and Louis Nelson have been together for 40 years &#x2014; &#x201C;very good for an old hippie,&#x201D; she said.</description>
+      <dc:creator>REMY TUMIN</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 15:53:13 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Love Is</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Marriages</category>
+    </item>
+    <item>
+      <title>An Inside Look at Your Favorite Dating Sites</title>
+      <link>https://www.nytimes.com/2018/04/11/style/match-shaadi-league-farmersonly-dating-apps.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/style/match-shaadi-league-farmersonly-dating-apps.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/11/style/match-shaadi-league-farmersonly-dating-apps.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/15/fashion/15DATINGSITES/11DATINGSITES-moth.gif" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Jocelyn Tsaih</media:credit>
+      <description>What&#x2019;s happening behind the scenes at the sites and apps you know and love and hate, along with a couple that may not be on your radar (or phone).</description>
+      <dc:creator>VALERIYA SAFRONOVA</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 19:53:37 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Online Dating</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Single Persons</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Love (Emotion)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Match.com</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">League App Inc, The</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Shaadi.com</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">FarmersOnly Media Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Love Is</category>
+    </item>
+    <item>
+      <title>Love Is ...: What Makes a Greeting Card Black?</title>
+      <link>https://www.nytimes.com/2018/04/11/style/hallmark-mahogany-cards.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/style/hallmark-mahogany-cards.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/11/style/hallmark-mahogany-cards.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/15/fashion/15LOVEIS-JEFFERSON1/11LOVEIS-JEFFERSON-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>For more than two decades, Hallmark has directly addressed black customers with its Mahogany collection, whose cards speak to a shared history.</description>
+      <dc:creator>CORD JEFFERSON</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 09:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Hallmark Cards Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Blacks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Love Is</category>
+    </item>
+    <item>
+      <title>Mark Zuckerberg&#x2019;s I&#x2019;m Sorry Suit</title>
+      <link>https://www.nytimes.com/2018/04/10/fashion/mark-zuckerberg-suit-congress.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/10/fashion/mark-zuckerberg-suit-congress.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/10/fashion/mark-zuckerberg-suit-congress.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/11/fashion/11OTR-1-print/10OTR-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Mark Zuckerberg, the C.E.O. of Facebook, testifies inside the Hart Hearing Room in Washington.</media:description>
+      <media:credit>Tom Brenner/The New York Times</media:credit>
+      <description>The Facebook C.E.O. wore a suit and tie to testify before Congress instead of his usual gray T-shirt. Here&#x2019;s why it mattered.</description>
+      <dc:creator>VANESSA FRIEDMAN</dc:creator>
+      <pubDate>Tue, 10 Apr 2018 19:51:00 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Zuckerberg, Mark E</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Suits (Apparel)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Privacy</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Facebook Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Social Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">House of Representatives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Senate</category>
+    </item>
+    <item>
+      <title>Mark Zuckerberg&#x2019;s Greatest Suits Appearances</title>
+      <link>https://www.nytimes.com/slideshow/2018/04/10/fashion/mark-zuckerbergs-greatest-suits-appearances.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/slideshow/2018/04/10/fashion/mark-zuckerbergs-greatest-suits-appearances.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/slideshow/2018/04/10/fashion/mark-zuckerbergs-greatest-suits-appearances.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/10/fashion/10OTR-slide-MNXS/10OTR-slide-MNXS-thumbStandard.jpg" medium="image" height="75" width="75"/>
+      <media:description/>
+      <media:credit/>
+      <description>His trademark sartorial simplicity aside, Mark Zuckerberg knows how to dress in something other than a gray T-shirt or hoodie.</description>
+      <dc:creator/>
+      <pubDate>Tue, 10 Apr 2018 19:44:25 GMT</pubDate>
+    </item>
+    <item>
+      <title>The Sweet Spot: Why Is the Greatest Love of All Also the Hardest?</title>
+      <link>https://www.nytimes.com/2018/04/10/style/how-do-you-forgive-yourself.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/10/style/how-do-you-forgive-yourself.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/10/style/how-do-you-forgive-yourself.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/style/12SWEETSPOT/12SWEETSPOT-moth.gif" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Heidi Younger</media:credit>
+      <description>A server, student and abuse survivor who longs to be a writer wonders why she is so supportive of her colleagues, but not herself.</description>
+      <dc:creator>STEVE ALMOND and CHERYL STRAYED</dc:creator>
+      <pubDate>Tue, 10 Apr 2018 16:36:09 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Love (Emotion)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Psychology and Psychologists</category>
+    </item>
+    <item>
+      <title>Spring Fashion: &#x2019;80s Irreverence Makes a Comeback</title>
+      <link>https://www.nytimes.com/2018/04/10/t-magazine/fashion/spring-fashion-1980s-style.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/10/t-magazine/fashion/spring-fashion-1980s-style.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/10/t-magazine/fashion/spring-fashion-1980s-style.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/05/t-magazine/05tmag-fashion-slide-U3A9/05tmag-fashion-slide-U3A9-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Photograph by Tom Johnson. Styled by Malina Joseph Gilchrist</media:credit>
+      <description>Today&#x2019;s spin on the decade&#x2019;s classics features wild faux fur, leather dresses, punk-rock ruffles and strong suiting.</description>
+      <dc:creator/>
+      <pubDate>Tue, 10 Apr 2018 16:17:00 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shoes and Boots</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Balenciaga (Fashion Label)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Calvin Klein Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Celine (Fashion Label)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Chloe (Fashion Label)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Miu Miu (Fashion Label)</category>
+    </item>
+    <item>
+      <title>The &#x2018;Kanye West of Furniture&#x2019; Is Now Nesting in the &#x2019;Burbs</title>
+      <link>https://www.nytimes.com/2018/04/10/style/please-do-not-touch-memoir.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/10/style/please-do-not-touch-memoir.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/10/style/please-do-not-touch-memoir.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/fashion/10MOSS/10MOSS-moth-v3.jpg" medium="image" height="151" width="151"/>
+      <media:description>Franklin Getchell, left, and Murray Moss at their home in Hamden, Conn.</media:description>
+      <media:credit>Collin Hughes for The New York Times</media:credit>
+      <description>For years Murray Moss ran one of SoHo&#x2019;s toniest stores with his longtime partner, Franklin Getchell. The two men have written a memoir of fin-de-millennium excess (blowtorched Steinway, anyone?).</description>
+      <dc:creator>PENELOPE GREEN</dc:creator>
+      <pubDate>Tue, 10 Apr 2018 14:32:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Interior Design and Furnishings</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Books and Literature</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Getchell, Franklin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Moss, Murray</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_ttl">Please Do Not Touch: And Other Things You Couldn't Do at Moss the Design Store That Changed Design (Book)</category>
+    </item>
+    <item>
+      <title>Up Next: She Makes Fancy Ice Cubes for a Living</title>
+      <link>https://www.nytimes.com/2018/04/09/style/keep-ice-weird-disco-cubes.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/style/keep-ice-weird-disco-cubes.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/09/style/keep-ice-weird-disco-cubes.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/fashion/05upnext1/05upnext1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Leslie Kirchhoff of Disco Cubes, at her home in Los Angeles.</media:description>
+      <media:credit>Kaleb Marshall for The New York Times</media:credit>
+      <description>Leslie Kirchhoff is the founder of Disco Cubes, which elevates the lowly ice cube to an art form.</description>
+      <dc:creator>STACY SUAYA</dc:creator>
+      <pubDate>Tue, 10 Apr 2018 21:07:27 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ice</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cocktails and Mixed Drinks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kirchhoff, Leslie</category>
+    </item>
+    <item>
+      <title>Skin Deep: Why So Many Asian-American Women Are Bleaching Their Hair Blond</title>
+      <link>https://www.nytimes.com/2018/04/09/fashion/why-are-so-many-asian-american-women-bleaching-their-hair-blond.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/fashion/why-are-so-many-asian-american-women-bleaching-their-hair-blond.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/09/fashion/why-are-so-many-asian-american-women-bleaching-their-hair-blond.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/fashion/12SKIN-leung/12SKIN-leung-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The fashion stylist and influencer Tina Leung.</media:description>
+      <media:credit>An Rong Xu for The New York Times</media:credit>
+      <description>In some salons, as many as half of the Asian-American clients are going lighter.</description>
+      <dc:creator>ANDREA CHENG</dc:creator>
+      <pubDate>Mon, 09 Apr 2018 20:34:47 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hair</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Race and Ethnicity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Asian-Americans</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Beauty (Concept)</category>
+    </item>
+    <item>
+      <title>Profile in style: Back to the Early &#x2019;80s With Michael Kors</title>
+      <link>https://www.nytimes.com/2018/04/09/t-magazine/michael-kors-80s-photos-inspiration.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/t-magazine/michael-kors-80s-photos-inspiration.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/09/t-magazine/michael-kors-80s-photos-inspiration.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/05/t-magazine/05tmag-kors-slide-ZTLO/05tmag-kors-slide-ZTLO-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Courtesy of Michael Kors</media:credit>
+      <description>The celebrated designer first made his name four decades ago, in Manhattan. Here, he shares some of his many inspirations.</description>
+      <dc:creator>LINDSAY TALBOT</dc:creator>
+      <pubDate>Mon, 09 Apr 2018 09:50:08 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Nineteen Hundred Eighties</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kors, Michael</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">New York City</category>
+    </item>
+    <item>
+      <title>Imagining a World After Anna</title>
+      <link>https://www.nytimes.com/2018/04/09/fashion/vogue-without-anna-wintour.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/fashion/vogue-without-anna-wintour.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/09/fashion/vogue-without-anna-wintour.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/fashion/12ANNA-metgala/12ANNA-metgala-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Anna Wintour, in the receiving line at the Met Costume Gala in 2012, including, from left, Donald Trump, Melania Trump, Barry Diller, Miuccia Prada, Diane Von Furstenberg and Carey Mulligan.</media:description>
+      <media:credit>Casey Kelbaugh for The New York Times</media:credit>
+      <description>A rumor that Anna Wintour was leaving Vogue spread like wildfire. Cond&#xE9; Nast says it&#x2019;s not true. But what would that look like and why all the chatter?</description>
+      <dc:creator>VANESSA FRIEDMAN</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 15:26:29 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wintour, Anna</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Fashion and Apparel</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Appointments and Executive Changes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Magazines</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Vogue</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Conde Nast Publications Inc</category>
+    </item>
+    <item>
+      <title>&#x2018;A Culture Free of Sexual Violence&#x2019;</title>
+      <link>https://www.nytimes.com/2018/04/08/style/a-culture-free-of-sexual-violence.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/style/a-culture-free-of-sexual-violence.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/08/style/a-culture-free-of-sexual-violence.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <description>Each generation, Antioch College pushes the culture forward. First America laughs &#x2014; then it follows.</description>
+      <dc:creator/>
+      <pubDate>Mon, 09 Apr 2018 00:39:09 GMT</pubDate>
+    </item>
+    <item>
+      <title>Alicia Ortega, Debraj Mukherjee</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/alicia-ortega-debraj-mukherjee.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/alicia-ortega-debraj-mukherjee.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/08/fashion/weddings/alicia-ortega-debraj-mukherjee.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08ORTEGA/08ORTEGA-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>The couple met in 2012 at the Cedars-Sinai Medical Center in Los Angeles.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:10:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Tiffany Peng, Jason Hwa</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/tiffany-peng-jason-hwa.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/tiffany-peng-jason-hwa.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/08/fashion/weddings/tiffany-peng-jason-hwa.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08PENG/08PENG-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Ting-Yi McCluskey, DP Studio</media:credit>
+      <description>The couple met two years ago through OkCupid; they married at the Bronx Zoo.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:10:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Rebecca Stump, Justin Werner II</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/rebecca-stump-justin-werner-ii.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/rebecca-stump-justin-werner-ii.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/08/fashion/weddings/rebecca-stump-justin-werner-ii.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08STUMP/08STUMP-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Lovebird Studio</media:credit>
+      <description>The couple met on a blind date in Manhattan in April 2011; they were married in the Massachusetts Berkshires.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:10:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Grace Chapin, Jason James</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/grace-chapin-jason-james.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/grace-chapin-jason-james.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/08/fashion/weddings/grace-chapin-jason-james.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08CHAPIN/08CHAPIN-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Shannon Shin</media:credit>
+      <description>Grace Chapin and Jason James met through OkCupid while she was on a business trip in China. They saw each other for the first time via Skype.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:10:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Susan Edwards, Pete Strom</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/susan-edwards-pete-strom.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/susan-edwards-pete-strom.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/08/fashion/weddings/susan-edwards-pete-strom.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08EDWARDS/08EDWARDS-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Forest Clonts Studio</media:credit>
+      <description>The bride and groom, both lawyers, were married at their home in Columbia, S.C.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:10:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Eric Chow, Christopher Chambers</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/eric-chow-christopher-chambers.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/eric-chow-christopher-chambers.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/08/fashion/weddings/eric-chow-christopher-chambers.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08CHOW/08CHOW-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Susannah Thornton</media:credit>
+      <description>Mr. Chow is a doctor. Mr. Chambers is a master diver. They met on OkCupid.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:10:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Lindsey Pearl, Leah Rubin-Cadrain</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/lindsey-pearl-leah-rubin-cadrain.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/lindsey-pearl-leah-rubin-cadrain.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/08/fashion/weddings/lindsey-pearl-leah-rubin-cadrain.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08PEARL/08PEARL-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Katie Edwards</media:credit>
+      <description>Lindsay Pearl and Leah Rubin-Cadrain were married April 7 at Caravan Outpost, an Airstream trailer hotel in Ojai, Calif.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:10:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Constance Carter, Gordon Dale</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/constance-carter-gordon-dale.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/constance-carter-gordon-dale.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/08/fashion/weddings/constance-carter-gordon-dale.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08CARTER/08CARTER-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Katherine Kendall</media:credit>
+      <description>The couple married at the Sulgrave Club in Washington.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:10:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Priya Prasad, James Bowe III</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/priya-prasad-james-bowe-iii.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/priya-prasad-james-bowe-iii.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/08/fashion/weddings/priya-prasad-james-bowe-iii.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08PRASAD/08PRASAD-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The couple met while working together in interest rate sales at Morgan Stanley in New York in 2011.</media:description>
+      <media:credit>Patrick Randak</media:credit>
+      <description>The bride and groom work for financial companies.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:10:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Faith Spencer, James Armstrong</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/faith-spencer-james-armstrong.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/faith-spencer-james-armstrong.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/08/fashion/weddings/faith-spencer-james-armstrong.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08SPENCER/08SPENCER-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Anne Jervey Rhett</media:credit>
+      <description>The bride graduated from Sewanee: the University of the South, the groom from the University of South Carolina.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:05:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Candida Moss, Justin Foa</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/candida-moss-justin-foa.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/candida-moss-justin-foa.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/08/fashion/weddings/candida-moss-justin-foa.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08MOSS/08MOSS-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Michael Priest</media:credit>
+      <description>The couple met in 2015 through OkCupid.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:05:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Anna Ward, Daniel Frendl</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/anna-ward-daniel-frendl.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/anna-ward-daniel-frendl.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/08/fashion/weddings/anna-ward-daniel-frendl.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08WARD/08WARD-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Sam Kenary</media:credit>
+      <description>The couple, both doctors, met in the pediatric operating room at Massachusetts General Hospital in the summer of 2016.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:05:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Anne Blackstock-Bernstein, Kyle Warren</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/anne-blackstock-bernstein-kyle-warren.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/anne-blackstock-bernstein-kyle-warren.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/08/fashion/weddings/anne-blackstock-bernstein-kyle-warren.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08BLACKSTOCK/08BLACKSTOCK-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>Anne Blackstock-Bernstein and Kyle Warren were married April 7 at Cree Estate in Cathedral City, Calif., by the playwright Tony Kushner.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:00:02 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Delaney Simon, Graeme Smith</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/delaney-simon-graeme-smith.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/delaney-simon-graeme-smith.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/08/fashion/weddings/delaney-simon-graeme-smith.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <description>The couple met in 2015 Kabul during a meeting for political staff of the United Nations Assistance Mission in Afghanistan.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Lauren Attaway, Rogelio Thomas Jr.</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/lauren-attaway-rogelio-thomas-jr.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/lauren-attaway-rogelio-thomas-jr.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/08/fashion/weddings/lauren-attaway-rogelio-thomas-jr.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/fashion/weddings/08ATTAWAY/08ATTAWAY-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Mandela Gregoire</media:credit>
+      <description>The couple met at a bar in Manhattan in 2012.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+    <item>
+      <title>Daniela Suarez, Sam Schatz</title>
+      <link>https://www.nytimes.com/2018/04/08/fashion/weddings/daniela-suarez-sam-schatz.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/fashion/weddings/daniela-suarez-sam-schatz.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/08/fashion/weddings/daniela-suarez-sam-schatz.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <description>The bride and groom met on OkCupid and were married at the Marigny Opera House in New Orleans.</description>
+      <dc:creator/>
+      <pubDate>Sun, 08 Apr 2018 04:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Weddings and Engagements</category>
+    </item>
+  </channel>
+</rss>

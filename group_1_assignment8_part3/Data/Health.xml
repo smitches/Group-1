@@ -1,0 +1,571 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Health</title>
+    <link>https://www.nytimes.com/section/health?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/Health.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2018  The New York Times Company</copyright>
+    <lastBuildDate>Fri, 13 Apr 2018 16:12:43 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Health</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/health?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>The Disappearing Doctor: How Mega-Mergers Are Changing the Business of Medical Care</title>
+      <link>https://www.nytimes.com/2018/04/07/health/health-care-mergers-doctors.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/07/health/health-care-mergers-doctors.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/07/health/health-care-mergers-doctors.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/02/science/00DOCTORS5/00DOCTORS5-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Dr. Navya Mysore was frustrated while working for a large New York health system, so she moved to One Medical, a venture-backed practice, where she gets to spend more time with her patients.</media:description>
+      <media:credit>Karsten Moran for The New York Times</media:credit>
+      <description>Big corporations &#x2014; giant retailers and health insurance companies &#x2014; are teaming up to become your doctor.</description>
+      <dc:creator>REED ABELSON and JULIE CRESWELL</dc:creator>
+      <pubDate>Sat, 07 Apr 2018 11:00:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Doctors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Mergers, Acquisitions and Divestitures</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">CVS Caremark Corporation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">UnitedHealth Group Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Walmart Stores Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Aetna Inc</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Humana Inc</category>
+    </item>
+    <item>
+      <title>Ask Well: How Can Oats, Which Don&#x2019;t Contain Gluten, Be Labeled &#x2018;Gluten Free&#x2019;?</title>
+      <link>https://www.nytimes.com/2018/04/13/well/eat/how-can-oats-which-dont-contain-gluten-be-labeled-gluten-free.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/13/well/eat/how-can-oats-which-dont-contain-gluten-be-labeled-gluten-free.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/13/well/eat/how-can-oats-which-dont-contain-gluten-be-labeled-gluten-free.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/17/well/ask-oats/ask-oats-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>iStock</media:credit>
+      <description>Oats, water, even sneakers may be advertised as &#x201C;gluten-free.&#x201D;</description>
+      <dc:creator>SOPHIE EGAN</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 10:02:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Gluten</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Celiac Disease</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Labeling and Labels (Product)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Grain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Regulation and Deregulation of Industry</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Diet and Nutrition</category>
+    </item>
+    <item>
+      <title>A Better Body in a Pill? Experts Urge Caution on SARMs</title>
+      <link>https://www.nytimes.com/2018/04/12/well/move/sarms-muscle-body-building-weight-lifting-pill-supplements-safety.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/well/move/sarms-muscle-body-building-weight-lifting-pill-supplements-safety.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/12/well/move/sarms-muscle-body-building-weight-lifting-pill-supplements-safety.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/17/well/pill-body/pill-body-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>iStock</media:credit>
+      <description>Bodybuilders are turning to a popular new pill to get bigger and stronger, but the chemicals are still undergoing testing and could cause serious harm.</description>
+      <dc:creator>ANAHAD O&#x2019;CONNOR</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 10:02:06 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Doping (Sports)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Steroids</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Testosterone</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drug Abuse and Traffic</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Drugs (Pharmaceuticals)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Muscles</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Prostate Gland</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Heart</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Cholesterol</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Liver</category>
+    </item>
+    <item>
+      <title>Phys Ed: Why Exercise Alone May Not Be the Key to Weight Loss</title>
+      <link>https://www.nytimes.com/2018/04/11/well/move/why-exercise-alone-may-not-be-the-key-to-weight-loss.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/well/move/why-exercise-alone-may-not-be-the-key-to-weight-loss.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/11/well/move/why-exercise-alone-may-not-be-the-key-to-weight-loss.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/17/well/physed-weight/physed-weight-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>iStock</media:credit>
+      <description>Mice given free access to running wheels moved less after exercising, which may have implications for diets and weight loss in people.</description>
+      <dc:creator>GRETCHEN REYNOLDS</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 16:29:16 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Exercise</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Animals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Mice</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Conservation of Resources</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Energy Efficiency</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Weight</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Calories</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Obesity</category>
+    </item>
+    <item>
+      <title>Many People Taking Antidepressants Discover They Cannot Quit</title>
+      <link>https://www.nytimes.com/2018/04/07/health/antidepressants-withdrawal-prozac-cymbalta.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/07/health/antidepressants-withdrawal-prozac-cymbalta.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/07/health/antidepressants-withdrawal-prozac-cymbalta.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/science/08WITHDRAWAL-p1/00WITHDRAWAL4-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Victoria Toline needed nine months to taper off Zoloft. &#x201C;I had to drop out of school,&#x201D; she said. &#x201C;My life&#x2019;s been on hold.&#x201D;</media:description>
+      <media:credit>Ruth Fremson/The New York Times</media:credit>
+      <description>Long-term use of the medications is surging in the United States, according to an analysis by The Times. One reason: withdrawal symptoms that make it difficult to stop.</description>
+      <dc:creator>BENEDICT CAREY and ROBERT GEBELOFF</dc:creator>
+      <pubDate>Sat, 07 Apr 2018 21:30:35 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Depression (Mental)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Drugs (Pharmaceuticals)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Antidepressants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Psychiatry and Psychiatrists</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Addiction (Psychology)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Prozac (Drug)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Cymbalta (Drug)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Paxil (Drug)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Zoloft (Drug)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Eli Lilly and Company</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Food and Drug Administration</category>
+    </item>
+    <item>
+      <title>Air Pollution May Pose Serious Risks to Young Children</title>
+      <link>https://www.nytimes.com/2018/04/13/well/family/air-pollution-may-pose-serious-risks-to-young-children.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/13/well/family/air-pollution-may-pose-serious-risks-to-young-children.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/13/well/family/air-pollution-may-pose-serious-risks-to-young-children.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2016/09/14/well/well_pog_child/well_pog_child-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>Air pollution increases the number of lower respiratory infections, a leading cause of illness and death in children under 2.</description>
+      <dc:creator>NICHOLAS BAKALAR</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 04:15:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Air Pollution</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Youth</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Respiratory Diseases</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Babies and Infants</category>
+    </item>
+    <item>
+      <title>Personal Health: Why You Should Get the New Shingles Vaccine</title>
+      <link>https://www.nytimes.com/2018/04/09/well/why-you-should-get-the-new-shingles-vaccine.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/well/why-you-should-get-the-new-shingles-vaccine.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/09/well/why-you-should-get-the-new-shingles-vaccine.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/10/science/10BRODY/10BRODY-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Juliette Borda</media:credit>
+      <description>People 50 and older should get the new shingles vaccine whether or not they remember having had chickenpox as a child, experts say.</description>
+      <dc:creator>JANE E. BRODY</dc:creator>
+      <pubDate>Mon, 09 Apr 2018 10:01:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Shingles (Disease)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Vaccination and Immunization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Chicken Pox</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Viruses</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Immune System</category>
+    </item>
+    <item>
+      <title>Trilobites: He Ate the World&#x2019;s Hottest Pepper, Then Landed in the Hospital With &#x2018;Thunderclap&#x2019; Headaches</title>
+      <link>https://www.nytimes.com/2018/04/09/health/hot-pepper-thunderclap-headaches.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/health/hot-pepper-thunderclap-headaches.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/09/health/hot-pepper-thunderclap-headaches.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/10/science/10PEPPER/10PEPPER-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A Carolina Reaper, the hottest pepper in the world. It has recently been measured at more than two million Scoville heat units; a really hot habanero might come in at 500,000 units.</media:description>
+      <media:credit>Luigi Lauria/Alamy Stock Photo</media:credit>
+      <description>After eating the Carolina Reaper during a contest, an unidentified patient suffered headaches so severe he was hospitalized. The symptoms resembled those of a stroke.</description>
+      <dc:creator>JAMES GORMAN</dc:creator>
+      <pubDate>Tue, 10 Apr 2018 09:46:52 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Chili Peppers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Headaches</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">British Medical Journal</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Henry Ford Hospital</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Cooperstown (NY)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Carolina Reaper</category>
+    </item>
+    <item>
+      <title>Scientist Behind Dolly the Sheep, a Key to Parkinson&#x2019;s Research, Has the Disease Himself</title>
+      <link>https://www.nytimes.com/2018/04/12/world/europe/ian-wilmut-parkinsons-dolly-sheep.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/world/europe/ian-wilmut-parkinsons-dolly-sheep.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/12/world/europe/ian-wilmut-parkinsons-dolly-sheep.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/13/world/13DOLLY/13DOLLY-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>An undated photograph of Dr. Ian Wilmut with Dolly the sheep at the Roslin Institute in Edinburgh.</media:description>
+      <media:credit>Robert Wallis/Corbis, via Getty Images</media:credit>
+      <description>Dr. Ian Wilmut said he received the diagnosis four months ago and would participate in a major research program to test new types of treatments.</description>
+      <dc:creator>CEYLAN YEGINSU</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 16:50:39 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wilmut, Ian</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parkinson's Disease</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stem Cells</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cloning</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Sheep</category>
+    </item>
+    <item>
+      <title>Matter: All by Itself, the Humble Sweet Potato Colonized the World</title>
+      <link>https://www.nytimes.com/2018/04/12/science/sweet-potato-pacific-dna.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/science/sweet-potato-pacific-dna.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/12/science/sweet-potato-pacific-dna.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/17/science/17ZIMMER/17ZIMMER-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The distribution of the sweet potato plant has baffled scientists. How could the plant arise from a wild ancestor in the Americas and wind up on islands across the Pacific?</media:description>
+      <media:credit>Karsten Moran for The New York Times</media:credit>
+      <description>Many botanists argued that humans must have carried the valuable staple to the Pacific from South America, a hidden chapter in human history. Not so, according to a new study.</description>
+      <dc:creator>CARL ZIMMER</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 16:00:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sweet Potatoes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetics and Heredity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Flowers and Plants</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Indigenous People</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Archaeology and Anthropology</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Agriculture and Farming</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Exploration and Explorers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Natural History Museum (London)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Current Biology (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Oxford University</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Columbus, Christopher</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Far East, South and Southeast Asia and Pacific Areas</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Central America</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Caribbean Area</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">South America</category>
+    </item>
+    <item>
+      <title>Morning People May Live Longer Than Night Owls</title>
+      <link>https://www.nytimes.com/2018/04/12/well/mind/morning-people-may-live-longer-than-night-owls.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/well/mind/morning-people-may-live-longer-than-night-owls.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/12/well/mind/morning-people-may-live-longer-than-night-owls.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2016/09/15/well/well_pog_sleep/well_pog_sleep-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>Compared with &#x201C;definite morning&#x201D; types, &#x201C;definite evening&#x201D; types had a 10 percent increased risk of dying over a six-and-a-half-year study period.</description>
+      <dc:creator>NICHOLAS BAKALAR</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 05:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Deaths (Fatalities)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sleep</category>
+    </item>
+    <item>
+      <title>Ruth Nussenzweig, Who Pursued Malaria Vaccine, Dies at 89</title>
+      <link>https://www.nytimes.com/2018/04/11/obituaries/ruth-nussenzweig-who-pursued-malaria-vaccine-dies-at-89.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/obituaries/ruth-nussenzweig-who-pursued-malaria-vaccine-dies-at-89.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/11/obituaries/ruth-nussenzweig-who-pursued-malaria-vaccine-dies-at-89.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/obituaries/nussenzweig/nussenzweig-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Ruth Nussenzweig in an undated family photo. Escaping oppression in Europe and then Brazil &#x201C;strengthened my resources and hardened my will to be a scientist,&#x201D; she said.</media:description>
+      <media:credit/>
+      <description>Dr. Nussenzweig&#x2019;s research into one of the world&#x2019;s most deadly diseases laid the groundwork for an approach once thought beyond reach.</description>
+      <dc:creator>NEIL GENZLINGER</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 22:03:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Nussenzweig, Ruth</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Malaria</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York University Langone Medical Center</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Deaths (Obituaries)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Vaccination and Immunization</category>
+    </item>
+    <item>
+      <title>Republicans Couldn&#x2019;t Knock Down Obamacare. So They&#x2019;re Finding Ways Around It.</title>
+      <link>https://www.nytimes.com/2018/04/11/upshot/republicans-couldnt-knock-down-obamacare-so-theyre-finding-ways-around-it.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/upshot/republicans-couldnt-knock-down-obamacare-so-theyre-finding-ways-around-it.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/11/upshot/republicans-couldnt-knock-down-obamacare-so-theyre-finding-ways-around-it.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/upshot/12up-obamacare/12up-obamacare-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Seema Verma, the administrator of the Centers for Medicare and Medicaid Services, during a visit to Nashville last month. On Monday, she unveiled a series of policies that were aimed at working around Obamacare's requirements.</media:description>
+      <media:credit>Jonathan Mattise/Associated Press</media:credit>
+      <description>Alongside one health care market, a parallel one, with fewer rules.</description>
+      <dc:creator>MARGOT SANGER-KATZ</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 19:50:32 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Patient Protection and Affordable Care Act (2010)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">States (US)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Verma, Seema</category>
+    </item>
+    <item>
+      <title>Chinese Sperm Bank Seeks Donors. Only Good Communists Need Apply.</title>
+      <link>https://www.nytimes.com/2018/04/11/world/asia/china-sperm-communist-party.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/world/asia/china-sperm-communist-party.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/11/world/asia/china-sperm-communist-party.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/world/12redsperm-1/12redsperm-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A lab technician at the fertility clinic of Peking University Third Hospital in Beijing in 2005.</media:description>
+      <media:credit>Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>A Beijing hospital advertised for donors with &#x201C;good ideological thoughts&#x201D; who &#x201C;support the leadership of the Chinese Communist Party.&#x201D;</description>
+      <dc:creator>JAVIER C. HERN&#xC1;NDEZ</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 10:48:03 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sperm</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Communist Party of China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+    </item>
+    <item>
+      <title>Adolescence: Why Teenagers Become &#x2018;Allergic&#x2019; to Their Parents</title>
+      <link>https://www.nytimes.com/2018/04/11/well/family/why-teenagers-become-allergic-to-their-parents.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/well/family/why-teenagers-become-allergic-to-their-parents.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/11/well/family/why-teenagers-become-allergic-to-their-parents.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/11/well/family/well-family-teenager/well-family-teenager-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>iStock</media:credit>
+      <description>It&#x2019;s no small task for teenagers to detach from those who have superintended nearly every aspect of their lives so far.</description>
+      <dc:creator>LISA DAMOUR</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 10:00:01 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Teenagers and Adolescence</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Parenting</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Families and Family Life</category>
+    </item>
+    <item>
+      <title>Traumatic Brain Injuries Are Tied to Dementia</title>
+      <link>https://www.nytimes.com/2018/04/10/well/mind/traumatic-brain-injuries-are-tied-to-dementia.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/10/well/mind/traumatic-brain-injuries-are-tied-to-dementia.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/10/well/mind/traumatic-brain-injuries-are-tied-to-dementia.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2016/10/20/well/well_pog_mind/well_pog_mind-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit/>
+      <description>Even a single mild concussion was tied to an increased risk of dementia.</description>
+      <dc:creator>NICHOLAS BAKALAR</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 14:57:41 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Concussions</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Dementia</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sports Injuries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Brain</category>
+    </item>
+    <item>
+      <title>Trilobites: Why Scientists Are Battling Over Pleasure</title>
+      <link>https://www.nytimes.com/2018/04/10/science/pleasure-art-sex-food-drugs.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/10/science/pleasure-art-sex-food-drugs.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/10/science/pleasure-art-sex-food-drugs.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/28/science/28TB-pleasure1/28TB-pleasure1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Is the pleasure of enjoying a Leonardo da Vinci painting really any different than the pleasure we get from eating chocolate?</media:description>
+      <media:credit>Benjamin Norman for The New York Times</media:credit>
+      <description>The question of whether the benefit from viewing a da Vinci is different from enjoying a visit to Pornhub or McDonald&#x2019;s is dividing psychologists and neuroscientists.</description>
+      <dc:creator>HEATHER MURPHY</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 07:46:41 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Psychology and Psychologists</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Art</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Brain</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Memory</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Proceedings of the Royal Society B (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Christensen, Julia F</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Nadal, Marcos</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Skov, Martin</category>
+    </item>
+    <item>
+      <title>F.D.A. Restricts Sales of Bayer&#x2019;s Essure Contraceptive Implant</title>
+      <link>https://www.nytimes.com/2018/04/09/health/fda-essure-bayer-contraceptive-implant.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/health/fda-essure-bayer-contraceptive-implant.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/09/health/fda-essure-bayer-contraceptive-implant.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/10/science/10ESSURE1/10ESSURE1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Dr. Scott Gottlieb, commissioner of the Food and Drug Administration, did not accede to demands to remove Essure, the troubled contraceptive implant, from the market. Instead, he ordered its manufacturer, Bayer, to limit sales.</media:description>
+      <media:credit>Drew Angerer/Getty Images</media:credit>
+      <description>The agency said the device could only be sold by doctors who agree to warn women of the serious risks associated with it.</description>
+      <dc:creator>SHEILA KAPLAN</dc:creator>
+      <pubDate>Mon, 09 Apr 2018 22:32:22 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medical Devices</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Birth Control and Family Planning</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Food and Drug Administration</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Bayer AG</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_keyword">Essure</category>
+    </item>
+    <item>
+      <title>They Were Jailed for Miscarriages. Now, Campaign Aims to End Abortion Ban.</title>
+      <link>https://www.nytimes.com/2018/04/09/world/americas/el-salvador-abortion.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/world/americas/el-salvador-abortion.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/09/world/americas/el-salvador-abortion.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/world/xxsalvador1/xxsalvador1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Women at risk of premature birth resting at El Hospital de La Mujer in San Salvador.</media:description>
+      <media:credit>Fred Ramos for The New York Times</media:credit>
+      <description>Women&#x2019;s rights groups in El Salvador are urging lawmakers to allow abortions when a woman&#x2019;s life is at risk and for minors who are raped.</description>
+      <dc:creator>ELISABETH MALKIN</dc:creator>
+      <pubDate>Mon, 09 Apr 2018 23:28:12 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women's Rights</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Abortion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Women and Girls</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Law and Legislation</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">El Salvador</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Miscarriages</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Stillbirth</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Latin America</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Pregnancy and Childbirth</category>
+    </item>
+    <item>
+      <title>Doctors Urge Elite Academy to Expel a Member Over Charges of Plagiarism</title>
+      <link>https://www.nytimes.com/2018/04/09/health/academy-medicine-plagiarism.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/health/academy-medicine-plagiarism.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/09/health/academy-medicine-plagiarism.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/10/science/03SCI-ACADEMY-building/03SCI-ACADEMY-building-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The National Academy of Sciences, Engineering and Medicine building in Washington.</media:description>
+      <media:credit>Carol M. Highsmith/Buyenlarge, via Getty Images</media:credit>
+      <description>National Academy of Medicine was asked to tighten ethics rules following the strange case of a member accused of plagiarism and false claims of top scientific honors.</description>
+      <dc:creator>SHEILA KAPLAN</dc:creator>
+      <pubDate>Wed, 11 Apr 2018 20:59:23 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Academy of Medicine</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Noji, Eric K</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Plagiarism</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Medical Schools</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ethics and Official Misconduct</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Uniformed Services University of the Health Sciences</category>
+    </item>
+    <item>
+      <title>It&#x2019;s the Latest in Conservation Tech. And It Wants to Suck Your Blood.</title>
+      <link>https://www.nytimes.com/2018/04/09/science/leeches-conservation-biodiversity.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/science/leeches-conservation-biodiversity.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/09/science/leeches-conservation-biodiversity.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/10/science/10SCI-LEECHES1/10SCI-LEECHES1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A leech, Haemadipsa zeylanica, in Thailand. Scientists have found they can survey the biodiversity of a forest with DNA analysis of leeches&#x2019; last blood meals.</media:description>
+      <media:credit>Thailand Wildlife/Alamy</media:credit>
+      <description>In the digestive tracts of leeches, scientists find evidence of elusive forest species.</description>
+      <dc:creator>RACHEL NUWER</dc:creator>
+      <pubDate>Mon, 09 Apr 2018 18:03:05 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Animals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Biodiversity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Genetics and Heredity</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Cameras</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Conservation of Resources</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">American Museum of Natural History</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Systematics and Biodiversity (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Journal of Applied Ecology</category>
+    </item>
+    <item>
+      <title>The Checkup: Life-Threatening Allergic Reactions Rising in Children</title>
+      <link>https://www.nytimes.com/2018/04/09/well/family/life-threatening-allergic-reactions-rising-in-children.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/well/family/life-threatening-allergic-reactions-rising-in-children.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/09/well/family/life-threatening-allergic-reactions-rising-in-children.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/03/23/well/well-family-epipen/well-family-epipen-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Andrew Mangum for The New York Times</media:credit>
+      <description>The rate of emergency room visits for anaphylaxis more than doubled, to 3.5 visits per 10,000 children in 2016 from 1.4 in 2010.</description>
+      <dc:creator>PERRI KLASS, M.D.</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 10:14:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Children and Childhood</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Allergies</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Anaphylactic Shock</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Peanuts</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Health Insurance and Managed Care</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Emergency Medical Treatment</category>
+    </item>
+    <item>
+      <title>The New Health Care: Better Car Seats Are Just the Start: Road Safety Lessons From Sweden</title>
+      <link>https://www.nytimes.com/2018/04/09/upshot/car-seats-road-safety-us-sweden.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/09/upshot/car-seats-road-safety-us-sweden.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/09/upshot/car-seats-road-safety-us-sweden.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/10/upshot/10up-healthcarseat/up-healthcarseat-moth-v2.png" medium="image" height="151" width="151"/>
+      <media:description>Crash-test dummies used to compare different styles of child safety seats. The top row are U.S.-style, while the lower row are the Swedish version.</media:description>
+      <media:credit>Association for the Advancement of Automotive Medicine</media:credit>
+      <description>The United States could do a lot more to make car travel safer for children and easier on parents.</description>
+      <dc:creator>AARON E. CARROLL</dc:creator>
+      <pubDate>Mon, 09 Apr 2018 12:39:49 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Traffic Accidents and Safety</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Child Car Seats</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Sweden</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">United States</category>
+    </item>
+    <item>
+      <title>Michigan Will No Longer Provide Free Bottled Water to Flint</title>
+      <link>https://www.nytimes.com/2018/04/08/us/flint-water-bottles.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/08/us/flint-water-bottles.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/08/us/flint-water-bottles.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/09/us/09xp-flint-print-dress/merlin_136495674_11fb3a9b-6f37-4512-b8b9-48b5ee0bed2d-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Deon Sisco loading cases of bottled water into vehicles in Flint, Mich., on Friday. The governor said the state would discontinue providing the free bottles.</media:description>
+      <media:credit>Jake May/The Flint Journal-MLive.com, via Associated Press</media:credit>
+      <description>The state said the city&#x2019;s water supply now met federal standards for safe levels of lead, but city officials were concerned, noting that lead pipes are still in service.</description>
+      <dc:creator>JACEY FORTIN</dc:creator>
+      <pubDate>Sun, 08 Apr 2018 15:19:32 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Flint (Mich)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Water</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Water Pollution</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Lead</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Weaver, Karen Williams (1959- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Snyder, Richard Dale</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Michigan</category>
+    </item>
+    <item>
+      <title>Surgery Lit by Cellphone: Togo Doctors Strike Over Deplorable Hospitals</title>
+      <link>https://www.nytimes.com/2018/04/07/world/africa/togo-lome-hospital-strikes-faure-gnassingbe.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/07/world/africa/togo-lome-hospital-strikes-faure-gnassingbe.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/07/world/africa/togo-lome-hospital-strikes-faure-gnassingbe.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/02/world/00togo1/00togo1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Togolese women protested in the streets of the capital, Lom&#xE9;, during a January rally against President Faure Gnassingb&#xE9;, whose family has ruled the country for five decades.</media:description>
+      <media:credit>Yanick Folly/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>To protest overcrowded and undersupplied hospitals, health care workers in the West African nation are staging walkouts, adding their voices to a growing swell of political opposition.</description>
+      <dc:creator>TIM MCDONNELL</dc:creator>
+      <pubDate>Sat, 07 Apr 2018 09:30:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Togo</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Hospitals</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gnassingbe, Faure</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Medicine and Health</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Strikes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Demonstrations, Protests and Riots</category>
+    </item>
+    <item>
+      <title>Why Trump&#x2019;s Tariffs Could Raise the Cost of a Hip Replacement</title>
+      <link>https://www.nytimes.com/2018/04/06/health/trump-tariffs-china-devices-drugs.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/06/health/trump-tariffs-china-devices-drugs.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/06/health/trump-tariffs-china-devices-drugs.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/07/science/07MEDICINES/07MEDICINES-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Defibrillators, replacement joints, pacemakers, insulin and lidocaine: All are made in China, and all are among the items targeted by the Trump administration&#x2019;s tariffs.</media:description>
+      <media:credit>Clockwise from top left: MedStockPhotos, Scott Camazine, MedStockPhontos, Mohammed Anwarul Kabir Choudhury and Dario Lo Presti, via Alamy.</media:credit>
+      <description>A growing percentage of medical devices and drugs used in American operating rooms are made in China, and many of them are on the White House&#x2019;s list.</description>
+      <dc:creator>SHEILA KAPLAN and KATIE THOMAS</dc:creator>
+      <pubDate>Tue, 10 Apr 2018 21:01:35 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Medical Devices</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Drugs (Pharmaceuticals)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Prices (Fares, Fees and Rates)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">International Trade and World Market</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Customs (Tariff)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Trump, Donald J</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">United States Politics and Government</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States International Relations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Factories and Manufacturing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Generic Brands and Products</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">China</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">India</category>
+    </item>
+    <item>
+      <title>Opinion: The Germs That Love Diet Soda</title>
+      <link>https://www.nytimes.com/2018/04/06/opinion/sunday/germs-microbes-processed-foods.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/06/opinion/sunday/germs-microbes-processed-foods.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/06/opinion/sunday/germs-microbes-processed-foods.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/08/opinion/sunday/08velasquezmanoff/08velasquezmanoff-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Julian Glander</media:credit>
+      <description>Human beings aren&#x2019;t designed to eat processed foods like these.</description>
+      <dc:creator>MOISES VELASQUEZ-MANOFF</dc:creator>
+      <pubDate>Fri, 06 Apr 2018 21:27:07 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Microbiology</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Digestive Tract</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Diet and Nutrition</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Artificial Sweeteners</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Food Additives</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Nature (Journal)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Britton, Robert A</category>
+    </item>
+    <item>
+      <title>Q&amp;A: In Your Bathroom, the Scum of the Earth</title>
+      <link>https://www.nytimes.com/2018/04/06/science/soap-scum.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/06/science/soap-scum.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/06/science/soap-scum.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/10/science/10QNA/10QNA-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Victoria Roberts</media:credit>
+      <description>Why does bar soap clog the bathroom drain?</description>
+      <dc:creator>C. CLAIBORNE RAY</dc:creator>
+      <pubDate>Fri, 06 Apr 2018 19:05:20 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cleansers, Detergents and Soaps</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Water</category>
+    </item>
+    <item>
+      <title>Global Health: TB Treatment May Leave Some Patients Contagious</title>
+      <link>https://www.nytimes.com/2018/04/06/health/tuberculosis-treatment-hiv.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/06/health/tuberculosis-treatment-hiv.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/06/health/tuberculosis-treatment-hiv.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/10/science/10SCI-GLOBAL/10SCI-GLOBAL-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>An H.I.V.-positive woman with tuberculosis symptoms at a hospital in Uganda. Researchers studying TB patients who were also infected with H.I.V. found that they may require higher doses of the standard medications.</media:description>
+      <media:credit>Rebecca Vassie/Associated Press</media:credit>
+      <description>Standard doses of two TB drugs were insufficient in African subjects also infected with H.I.V., a study finds. Experts say treatment guidelines should be revised.</description>
+      <dc:creator>EMILY BAUMGAERTNER</dc:creator>
+      <pubDate>Fri, 06 Apr 2018 18:53:48 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tuberculosis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Research</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Uganda</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">World Health Organization</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Clinical Infectious Diseases (Journal)</category>
+    </item>
+    <item>
+      <title>What Is Naloxone and How Does It Stop Opioid Overdoses?</title>
+      <link>https://www.nytimes.com/2018/04/06/us/naloxone-narcan-opioid-overdose.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/06/us/naloxone-narcan-opioid-overdose.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/06/us/naloxone-narcan-opioid-overdose.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/05/us/00naloxone/00naloxone-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A kit containing naloxone, the opioid overdose antidote that the surgeon general is advising more Americans to keep nearby.</media:description>
+      <media:credit>Hiroko Masuike/The New York Times</media:credit>
+      <description>Each day 115 Americans die of an opioid overdose. In the first surgeon general advisory in 13 years, Americans were urged to carry a medication to save lives.</description>
+      <dc:creator>ELIZABETH DIAS and ANNIE CORREAL</dc:creator>
+      <pubDate>Fri, 06 Apr 2018 22:41:16 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Opioids and Opiates</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Naloxone (Drug)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Addiction (Psychology)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Drugs (Pharmaceuticals)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Hypodermic Needles and Syringes</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Surgeon General (US)</category>
+    </item>
+  </channel>
+</rss>

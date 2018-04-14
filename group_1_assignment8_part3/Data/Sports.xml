@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:nyt="http://www.nytimes.com/namespaces/rss/2.0" version="2.0">
+  <channel>
+    <title>NYT &gt; Sports</title>
+    <link>https://www.nytimes.com/section/sports?partner=rss&amp;emc=rss</link>
+    <atom:link rel="self" type="application/rss+xml" href="http://www.nytimes.com/services/xml/rss/nyt/Sports.xml"/>
+    <description/>
+    <language>en-us</language>
+    <copyright>Copyright 2018  The New York Times Company</copyright>
+    <lastBuildDate>Fri, 13 Apr 2018 16:20:31 GMT </lastBuildDate>
+    <image>
+      <title>NYT &gt; Sports</title>
+      <url>https://static01.nyt.com/images/misc/NYT_logo_rss_250x40.png</url>
+      <link>https://www.nytimes.com/section/sports?partner=rss&amp;emc=rss</link>
+    </image>
+    <item>
+      <title>New Coach? New Players? Prayers? How to Fix the Knicks (and Nets)</title>
+      <link>https://www.nytimes.com/2018/04/12/sports/fix-knicks-nets.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/sports/fix-knicks-nets.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/12/sports/fix-knicks-nets.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/11/sports/00knicksnets-1/00knicksnets-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The consensus among our experts is that Kristaps Porzingis needs to be healthy for the Knicks to be great.</media:description>
+      <media:credit>Isaiah J. Downing/USA Today Sports, via Reuters</media:credit>
+      <description>The New York Times asked a handful of interested parties how to restore the luster of New York basketball. And get it started in Brooklyn.</description>
+      <dc:creator>HARVEY ARATON, MARC STEIN and MALIKA ANDREWS</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 16:35:28 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Basketball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Knicks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Brooklyn Nets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Porzingis, Kristaps (1995- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Lin, Jeremy</category>
+    </item>
+    <item>
+      <title>2018 N.B.A. Playoff Preview: As the Playoffs Begin, the N.B.A.&#x2019;s Biggest Stars are Going Ring Hunting </title>
+      <link>https://www.nytimes.com/2018/04/13/sports/nba-playoff-preview.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/13/sports/nba-playoff-preview.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/13/sports/nba-playoff-preview.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/sports/00NBAgif/00NBAgif-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description/>
+      <media:credit>Peter and Maria Hoey</media:credit>
+      <description>The Rockets, Warriors and Cavaliers all think they have an edge in the league&#x2019;s annual contest for the jewelry that tends to dominate the conversation.</description>
+      <dc:creator>BENJAMIN HOFFMAN</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 11:00:08 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Basketball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Playoff Games</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Houston Rockets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Golden State Warriors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Toronto Raptors</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Cleveland Cavaliers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Boston Celtics</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Philadelphia 76ers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">James, LeBron</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Curry, Stephen</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Paul, Chris (1985- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">McHale, Kevin</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bryant, Kobe</category>
+    </item>
+    <item>
+      <title>On Pro Basketball: Knicks Coaching Job Criteria: The Best Qualified for Losing</title>
+      <link>https://www.nytimes.com/2018/04/12/sports/knicks-coach-search.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/sports/knicks-coach-search.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/12/sports/knicks-coach-search.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/13/sports/13araton/13araton-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Will the Knicks hire a coach who can weather a lot of losing before winning, as the Sixers have done with their coach, Brett Brown?<br/><br/><br/></media:description>
+      <media:credit>Nell Redmond/Associated Press</media:credit>
+      <description>With its franchise player out, absorbing losses while trying to rebuild will be important for the new Knicks coach, along with a thick skin.</description>
+      <dc:creator>HARVEY ARATON</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 01:32:11 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Basketball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Knicks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Dolan, James L</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hornacek, Jeff</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Jackson, Mark A</category>
+    </item>
+    <item>
+      <title>Amid Yankees-Red Sox Chaos, a Moment of Base-Running Chivalry</title>
+      <link>https://www.nytimes.com/2018/04/12/sports/baseball/red-sox-yankees.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/sports/baseball/red-sox-yankees.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/12/sports/baseball/red-sox-yankees.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/13/sports/13yankeesweb/13yankeesweb-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Tyler Austin of the Yankees, center, drew the Red Sox's ire for catching Brock Holt with a spike. But Jackie Bradley Jr. avoided a similar situation later.</media:description>
+      <media:credit>Maddie Meyer/Getty Images</media:credit>
+      <description>There were angry words and punches, sure, but one Red Sox player avoided an episode that could have turned things much worse.</description>
+      <dc:creator>BILLY WITZ</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 03:05:04 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Boston Red Sox</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Yankees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Austin, Tyler (1991- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gregorius, Didi (1990- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Kelly, Joe (1988- )</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Bradley, Jackie Jr</category>
+    </item>
+    <item>
+      <title>Diamond DeShields&#x2019;s Path to the W.N.B.A. Took Her From Tennessee to Turkey</title>
+      <link>https://www.nytimes.com/2018/04/12/sports/basketball/diamond-deshields-wnba-draft.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/sports/basketball/diamond-deshields-wnba-draft.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/12/sports/basketball/diamond-deshields-wnba-draft.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/13/sports/13wnba/13wnba-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Diamond DeShields led Tennessee in scoring during her two seasons there, but skipped her final year of eligibility to turn pro.</media:description>
+      <media:credit>Doug Buffington/Icon Sportswire, via Getty Images</media:credit>
+      <description>DeShields, expected to be a top-10 pick in the W.N.B.A. draft on Thursday, skipped her final year with the Lady Vols to play professionally overseas.</description>
+      <dc:creator>SETH BERKMAN</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 23:52:47 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Basketball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Women's National Basketball Assn</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">University of Tennessee</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">DeShields, Diamond</category>
+    </item>
+    <item>
+      <title>Red Sox 6, Yankees 3: Yankees Hitters Prayed for Rain, but Rick Porcello Just Pitched Through It</title>
+      <link>https://www.nytimes.com/2018/04/12/sports/yankees-red-sox.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/sports/yankees-red-sox.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/12/sports/yankees-red-sox.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/13/sports/13yankgame/13yankgame-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Rick Porcello carried a no-hitter into the seventh inning on Thursday, but Aaron Judge ended it with a double.</media:description>
+      <media:credit>Adam Glanzman/Getty Images</media:credit>
+      <description>The Boston right-hander showed no ill-effects after returning to the mound following a rain delay. He allowed just 2 hits in 7 innings.</description>
+      <dc:creator>BILLY WITZ</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 04:00:54 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Yankees</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Boston Red Sox</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Porcello, Rick</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Gray, Sonny Douglas</category>
+    </item>
+    <item>
+      <title>On Baseball: Bad Blood Between the Yankees and the Red Sox Is Good for Baseball</title>
+      <link>https://www.nytimes.com/2018/04/12/sports/baseball/yankees-red-sox-brawl.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/sports/baseball/yankees-red-sox-brawl.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/12/sports/baseball/yankees-red-sox-brawl.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/13/sports/13kepner1/13kepner1-moth-v2.jpg" medium="image" height="151" width="151"/>
+      <media:description>Yankees first baseman Tyler Austin, center, started a scrum with Red Sox relief pitcher Joe Kelly, left, in the seventh inning on Wednesday night at Fenway Park in Boston.</media:description>
+      <media:credit>Winslow Townson/USA Today Sports, via Reuters</media:credit>
+      <description>When the Yankees and the Red Sox are this good &#x2014; and feuding &#x2014; the sport thrives on a bigger scale.</description>
+      <dc:creator>TYLER KEPNER</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 00:18:44 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Boston Red Sox</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Yankees</category>
+    </item>
+    <item>
+      <title>Mets 4, Marlins 1: Mets&#x2019; Streak Continues, but the Injury Bug Returns</title>
+      <link>https://www.nytimes.com/2018/04/11/sports/mets-streak-continues-but-the-injury-bug-returns.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/sports/mets-streak-continues-but-the-injury-bug-returns.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/11/sports/mets-streak-continues-but-the-injury-bug-returns.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/sports/12metsweb/12metsweb-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Michael Conforto scored the run that put the Mets ahead in the eighth inning.</media:description>
+      <media:credit>Eric Espada/Getty Images</media:credit>
+      <description>Before a win over the Marlins, the Mets learned of their first big injury of the season: a torn ligament in the throwing arm of catcher Travis d&#x2019;Arnaud.</description>
+      <dc:creator>JAMES WAGNER</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 03:51:41 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Baseball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Miami Marlins</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Mets</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">d'Arnaud, Travis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Wheeler, Zack</category>
+    </item>
+    <item>
+      <title>On Soccer: James Pallotta Soaks In Roma&#x2019;s Stunning Win</title>
+      <link>https://www.nytimes.com/2018/04/12/sports/roma-james-pallotta.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/sports/roma-james-pallotta.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/12/sports/roma-james-pallotta.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/13/sports/13roma1-print/merlin_136696368_282296e7-cf8e-4950-8390-884f6b1d401e-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Roma&#x2019;s president, James Pallotta, happily agreed to pay a $280 fine at a meeting with Mayor Virginia Raggi in Rome on Wednesday, a day after he jumped in a fountain to celebrate his soccer club&#x2019;s win over Barcelona.</media:description>
+      <media:credit>Gregorio Borgia/Associated Press</media:credit>
+      <description>The Boston billionaire has been working to turn his storied club into a modern club. Finally, after beating Barcelona in the Champions League, a payoff.</description>
+      <dc:creator>RORY SMITH</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 22:41:55 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">UEFA Champions League (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Data-Mining and Database Marketing</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Fenway Sports Group</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Pallotta, Jim</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_geo">Rome (Italy)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Di Francesco, Eusebio</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Roma (Soccer Team)</category>
+    </item>
+    <item>
+      <title>Knicks Fire Coach Jeff Hornacek</title>
+      <link>https://www.nytimes.com/2018/04/12/sports/basketball/jeff-hornacek-fired-knicks.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/sports/basketball/jeff-hornacek-fired-knicks.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/12/sports/basketball/jeff-hornacek-fired-knicks.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/13/sports/00hornacek/00hornacek-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Coach Jeff Hornacek was fired by the Knicks shortly after the conclusion of the 2017-18 season.</media:description>
+      <media:credit>Kathy Willens/Associated Press</media:credit>
+      <description>He was brought on two years ago with hopes of making the team a playoff contender. Instead, he presided over two losing seasons.</description>
+      <dc:creator>MALIKA ANDREWS</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 21:26:16 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Basketball</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Coaches and Managers</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">New York Knicks</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Hornacek, Jeff</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Perry, Scott (1963- )</category>
+    </item>
+    <item>
+      <title>ESPN Tries to Get With a Mobile, App-Driven World</title>
+      <link>https://www.nytimes.com/2018/04/12/sports/espn-app.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/sports/espn-app.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/12/sports/espn-app.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/13/sports/13ESPN/13ESPN-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Can an ESPN streaming service succeed without premium games like those on &#x201C;Sunday Night Baseball,&#x201D; with Alex Rodriguez and Jessica Mendoza?</media:description>
+      <media:credit>Danny Moloshok/Associated Press</media:credit>
+      <description>The company best known for its television networks launches ESPN+, which it hopes can capture the next generation of sports fans.</description>
+      <dc:creator>KEVIN DRAPER</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 15:06:44 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Media</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Athletics and Sports</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">ESPN</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">James Pitaro</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/mdes">Video Recordings, Downloads and Streaming</category>
+    </item>
+    <item>
+      <title>U.S. Open Will Use a Serve Clock in the Main Draw</title>
+      <link>https://www.nytimes.com/2018/04/11/sports/us-open-serve-clock.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/11/sports/us-open-serve-clock.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/11/sports/us-open-serve-clock.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/12/sports/12TENNISprint/12TENNISprint-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>A serve clock was used during the qualifying events at the U.S. Open last year.</media:description>
+      <media:credit>Michael Noble Jr./Associated Press</media:credit>
+      <description>After testing the innovation last year in non-main draw events, the 25-second clock will be used in all events this year.</description>
+      <dc:creator>DAVID WALDSTEIN</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 18:37:12 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Tennis</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">United States Open (Tennis)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Nadal, Rafael</category>
+    </item>
+    <item>
+      <title>This Man Expects to Run a 2:50 in the Boston Marathon on Monday</title>
+      <link>https://www.nytimes.com/2018/04/12/sports/tim-don-boston-marathon-ironman.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/sports/tim-don-boston-marathon-ironman.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/12/sports/tim-don-boston-marathon-ironman.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/15/sports/13athlete-1/13athlete-1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>&#x201C;The halo is like a medieval torture device,&#x201D; Tim Don&#x2019;s doctor said. &#x201C;It&#x2019;s pure torture.&#x201D; Don wore it for three months after he was struck by a utility vehicle while riding his bike.</media:description>
+      <media:credit>Andrew Hinton</media:credit>
+      <description>Tim Don, the world-record holder in the Ironman triathlon, broke his neck in October. He decided a return to competition was his only option.</description>
+      <dc:creator>LINDSAY CROUSE</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 09:00:09 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Sports Injuries</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Ironman Triathlon (Hawaii)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Triathlon</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Tim Don</category>
+    </item>
+    <item>
+      <title>Another Former N.F.L. Cheerleader Files a Complaint</title>
+      <link>https://www.nytimes.com/2018/04/12/sports/football/nfl-cheerleaders.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/12/sports/football/nfl-cheerleaders.html</guid>
+      <atom:link href="https://www.nytimes.com/2018/04/12/sports/football/nfl-cheerleaders.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/13/sports/13cheer-pic1/13cheer-pic1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>The Miami Dolphins cheerleaders.</media:description>
+      <media:credit>Ronald Martinez/Getty Images</media:credit>
+      <description>A cheerleader for the Miami Dolphins claims that she was discriminated against because of her religion and gender.</description>
+      <dc:creator>JOHN BRANCH</dc:creator>
+      <pubDate>Thu, 12 Apr 2018 22:02:31 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_per">Ware, Kristan</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Cheerleaders</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Workplace Hazards and Violations</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Freedom of Religion</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">National Football League</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Discrimination</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Football</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/nyt_org_all">Miami Dolphins</category>
+    </item>
+    <item>
+      <title>Real Madrid to Face Bayern Munich in Champions League</title>
+      <link>https://www.nytimes.com/2018/04/13/sports/soccer/real-madrid-to-face-bayern-munich-in-champions-league.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/2018/04/13/sports/soccer/real-madrid-to-face-bayern-munich-in-champions-league.html</guid>
+      <atom:link rel="standout" href="https://www.nytimes.com/2018/04/13/sports/soccer/real-madrid-to-face-bayern-munich-in-champions-league.html?partner=rss&amp;emc=rss"/>
+      <media:content url="https://static01.nyt.com/images/2018/04/14/sports/14cldrawWEB1/14cldrawWEB1-moth.jpg" medium="image" height="151" width="151"/>
+      <media:description>Bayern Munich will face Real Madrid in the Champions League semifinal.</media:description>
+      <media:credit>Fabrice Coffrini/Agence France-Presse &#x2014; Getty Images</media:credit>
+      <description>In the other semifinal, Liverpool was drawn to face Roma.</description>
+      <dc:creator>THE ASSOCIATED PRESS</dc:creator>
+      <pubDate>Fri, 13 Apr 2018 12:17:08 GMT</pubDate>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">UEFA Champions League (Soccer)</category>
+      <category domain="http://www.nytimes.com/namespaces/keywords/des">Soccer</category>
+    </item>
+    <item>
+      <title/>
+      <link>https://www.nytimes.com/index.html?partner=rss&amp;emc=rss</link>
+      <guid isPermaLink="true">https://www.nytimes.com/index.html</guid>
+      <atom:link href="https://www.nytimes.com/index.html?partner=rss&amp;emc=rss" rel="standout"/>
+      <description/>
+      <dc:creator/>
+      <pubDate/>
+    </item>
+  </channel>
+</rss>
