@@ -1,4 +1,14 @@
-The goal of this game is for the kritter to be able to carve out as much space as possible on the screen before the monster gets to it. If the kritter runs into the monster or is unable to create space for itself before the monster reaches the kritter or an open area then the player loses. There is a score tally on the top right hand that displays the percentage of the grid that the player owns currently as they acquire more space. There are also two buttons- a pause and play button that the player can use at anytime to stop or start the game again. 
+The goal of this game is for the kritter to be able to carve out as much space as possible on the 
+screen before the monster gets to it. If the kritter runs into the monster or is unable to create 
+space for itself before the monster reaches the kritter or an open area then the player loses. 
+There is a score tally on the top right hand that displays the percentage of the grid that the player 
+owns currently as they acquire more space. There are also two buttons- a pause and play button that 
+the player can use at anytime to stop or start the game again. 
+
+Pressing ENTER at any time restarts the game.
+Use the Arrow keys to navigate and draw boxes using edge of bounds or existing territory. Draw corners
+of boxes in open field and close the box to seal the gap, but do not step on your own trail before you 
+claim your territory or you will die. Try to claim 50% of the field to win.
 
 Brian- Button class, player and timer classes
 Rachel- monster and timer classes

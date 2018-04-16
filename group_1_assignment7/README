@@ -2,3 +2,7 @@ Steps for the game:
 - Use the up, down, right and left keyboard buttons to move the kritter in any desired direction
 - Create grid space for kritter and to win the game 
 - Press either play or pause button as needed 
+- Draw boxes in unclaimed territory and bind the box to the boundaries or your existing territory
+- Do not step on your trail before you claim your territory
+- Do not run into enemies
+- Claim 50% of territory to win
