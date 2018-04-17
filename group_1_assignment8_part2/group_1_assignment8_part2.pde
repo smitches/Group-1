@@ -99,8 +99,8 @@ void mouseClicked(){for (Radio r : maxormin){if (r.inRange()){r.check();}}
                     if (rb.inRange()){refresh();}
                   }
 
-void keyPressed(){ if (key==BACKSPACE&&userInput.length()>0){userInput=userInput.substring(0,userInput.length()-1);}
-                   if (keyCode>=48&&keyCode<=57){userInput+=(key);}
+void keyPressed(){ if ((key==BACKSPACE||key==DELETE)&&userInput.length()>0){userInput=userInput.substring(0,userInput.length()-1);}
+                   if (key=='1'||key=='2'||key=='3'||key=='4'||key=='5'||key=='6'||key=='7'||key=='8'||key=='9'||key=='0'){userInput+=(key);}
 }
 
 void display(City city, int i){
@@ -110,6 +110,7 @@ void display(City city, int i){
   else if (i==0){x=50;}
   else {x=width-50;}
   text(int(city.zip),x,y);
+  //put the bar graphs associated with the city above the zip code
 }
 
 void refresh(){int cityindex=0,operatorindex=0,headerindex=0;
@@ -122,70 +123,73 @@ void refresh(){int cityindex=0,operatorindex=0,headerindex=0;
                  float targetvalue=float(userInput);
                  ArrayList<City> qualifiers = new ArrayList<City>();
                  for (City c : cities){
-                   if (headerindex==0){if(operatorindex==0){if (c.zip>targetvalue){
+                   if (headerindex==0){if(operatorindex==1){if (c.zip>targetvalue){
                      qualifiers.add(c);
                      }}
-                     else if(operatorindex==1){if (c.zip<targetvalue){
+                     else if(operatorindex==0){if (c.zip<targetvalue){
                      qualifiers.add(c);
                      }}
                      else if(operatorindex==2){if (c.zip==targetvalue){
                      qualifiers.add(c);
                      }}
                    }
-                   else if (headerindex==1){if(operatorindex==0){if (c.pop>targetvalue){
+                   else if (headerindex==1){if(operatorindex==1){if (c.pop>targetvalue){
                      qualifiers.add(c);
+                     println('a');
                      }}
-                     if(operatorindex==1){if (c.pop<targetvalue){
+                     if(operatorindex==0){if (c.pop<targetvalue){
                      qualifiers.add(c);
+                     println('b');
                      }}
                      if(operatorindex==2){if (c.pop==targetvalue){
                      qualifiers.add(c);
+                     println('c');
                      }}
                    }
-                   else if (headerindex==2){if(operatorindex==0){if (c.age>targetvalue){
+                   else if (headerindex==2){if(operatorindex==1){if (c.age>targetvalue){
                      qualifiers.add(c);
                      }}
-                     else if(operatorindex==1){if (c.age<targetvalue){
+                     else if(operatorindex==0){if (c.age<targetvalue){
                      qualifiers.add(c);
                      }}
                      else if(operatorindex==2){if (c.age==targetvalue){
                      qualifiers.add(c);
                      }}
                    }
-                   else if (headerindex==3){if(operatorindex==3){if (c.male>targetvalue){
+                   else if (headerindex==3){if(operatorindex==1){if (c.male>targetvalue){
                      qualifiers.add(c);
                      }}
-                     else if(operatorindex==1){if (c.male<targetvalue){
+                     else if(operatorindex==0){if (c.male<targetvalue){
                      qualifiers.add(c);
                      }}
                      else if(operatorindex==2){if (c.male==targetvalue){
                      qualifiers.add(c);
                      }}
                    }
-                   else if (headerindex==4){if(operatorindex==0){if (c.female>targetvalue){
+                   else if (headerindex==4){if(operatorindex==1){if (c.female>targetvalue){
                      qualifiers.add(c);
                      }}
-                     else if(operatorindex==1){if (c.female<targetvalue){
+                     else if(operatorindex==0){if (c.female<targetvalue){
                      qualifiers.add(c);
                      }}
                      else if(operatorindex==2){if (c.female==targetvalue){
                      qualifiers.add(c);
                      }}
                    }
-                   else if (headerindex==5){if(operatorindex==0){if (c.households>targetvalue){
+                   else if (headerindex==5){if(operatorindex==1){if (c.households>targetvalue){
                      qualifiers.add(c);
                      }}
-                     else if(operatorindex==1){if (c.households<targetvalue){
+                     else if(operatorindex==0){if (c.households<targetvalue){
                      qualifiers.add(c);
                      }}
                      else if(operatorindex==2){if (c.households==targetvalue){
                      qualifiers.add(c);
                      }}
                    }
-                   else if (headerindex==6){if(operatorindex==0){if (c.householdsize>targetvalue){
+                   else if (headerindex==6){if(operatorindex==1){if (c.householdsize>targetvalue){
                      qualifiers.add(c);
                      }}
-                     else if(operatorindex==1){if (c.householdsize<targetvalue){
+                     else if(operatorindex==0){if (c.householdsize<targetvalue){
                      qualifiers.add(c);
                      }}
                      else if(operatorindex==2){if (c.householdsize==targetvalue){
