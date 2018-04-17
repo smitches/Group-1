@@ -28,10 +28,11 @@ class Radio {
   String text;
   Radio(Radio[] group, float id, String text,float X, float Y){
     this.id=id; this.group=group;this.text = text;x=X;y=Y;
+    if (id==0){checked=true;}
   }
   boolean inRange(){return dist(mouseX,mouseY,x,y)<15;}
   void check(){checked=true; for (Radio r : group){if (r.id!=this.id){r.checked=false;}}}
   void display(){strokeWeight(15); stroke(255); point(x,y); textAlign(LEFT);
-                 text(text, x+20, y+5); if(checked){strokeWeight(10); stroke(0); point(x,y);}
+                 text(text, x+13, y+5); if(checked){strokeWeight(10); stroke(0); point(x,y);}
   }
 }
