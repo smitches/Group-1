@@ -42,6 +42,11 @@ class Slider {
     return minVal*(1 - t) + maxVal*t;
   }
   
+  float getPer() {
+    float t = (currentPos - minPos)/(maxPos - minPos);
+    return t;
+  }
+  
   void pressed(int mx, int my) {
     if (isMouseOver) {
       isLocked = true;
