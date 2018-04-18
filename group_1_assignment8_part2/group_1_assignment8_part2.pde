@@ -5,6 +5,7 @@ Radio[] maxormin = new Radio[3];
 Radio [] choosecity = new Radio [3];
 Radio [] choice = new Radio [7];
 RectButton rb;
+float maxPop=0, maxAge=0, maxMale=0,maxHouse=0,maxSize=0;
 
 String error ="";
 
@@ -12,7 +13,7 @@ String userInput="11111";
 
 void setup(){
   size(500,500);
-  rb = new RectButton(width-100,150,100,50);
+  rb = new RectButton(width-100,120,100,50);
   zipcode= loadTable("2010_Census_Populations_by_Zip_Code.csv","header");
   
   PVector shift= new PVector(280,20);
@@ -59,13 +60,13 @@ void setup(){
   }
   println(cities.get(0).zip);
   for (i=0; i<3; i++){
-    display[i]=cities.get(i);
+    display[i]=cities.get(int(random(0,cities.size())));
   }
 }
 
 
 void draw(){
-  background(0);
+  background(40);
   noStroke();
   fill(150);
   textSize(20);
@@ -77,9 +78,21 @@ void draw(){
   text(error, 23,170);
   fill(255);
   textSize(16);
+  maxPop=0;
+  maxAge=0;
+  maxMale=0;
+  maxHouse=0;
+  maxSize=0;
+  for (City c : display){if (c.pop>maxPop){maxPop=c.pop;}
+                         if(c.age>maxAge){maxAge=c.age;}
+                         if(c.male>maxMale){maxMale=c.male;}
+                         if(c.households>maxHouse){maxHouse=c.households;}
+                         if(c.householdsize>maxSize){maxSize=c.householdsize;}
+                       }
   for (int i =0; i<3; i++){
     display(display[i],i);
   }
+  fill(255);
   for (Radio r : maxormin){
     r.display();
   }
@@ -90,7 +103,10 @@ void draw(){
   for (Radio r : choice){
     r.display();
   }
+  strokeWeight(0);
   rb.display();
+  fill(255);
+  text("Search and\nSet new ZIP",rb.x+5,rb.y+15);
 }
 
 void mouseClicked(){for (Radio r : maxormin){if (r.inRange()){r.check();}}
@@ -104,13 +120,42 @@ void keyPressed(){ if ((key==BACKSPACE||key==DELETE)&&userInput.length()>0){user
 }
 
 void display(City city, int i){
+  color blue=color(59,227,255);
+  color pink = color(255,144,200);
+  color green=color(63,232,92);
+  color purple = color(208,117,247);
   textAlign(CENTER);
   float x,y=height-50;
   if (i==1){x=width/2;}
-  else if (i==0){x=50;}
-  else {x=width-50;}
-  text(int(city.zip),x,y);
+  else if (i==0){x=90;}
+  else {x=width-90;}
+  fill(255);
+  text(str(int(city.zip))+"\nCity "+str(i+1),x,y);
   //put the bar graphs associated with the city above the zip code
+  fill(pink);
+  rect(x-38,y-20,25,lerp(city.pop/maxPop,0,200));
+  fill(blue);
+  rect(x-38,y-20,25,-1*lerp(city.male/city.pop,0,lerp(city.pop/maxPop,0,200)));
+  pushMatrix();
+  translate(x,y);
+  rotate(-PI/2);
+  translate(-x,-y);
+  textSize(14);
+  textAlign(LEFT);
+  fill(blue);
+  text("Male:"+str(int(city.male)),x+20,y-45);
+  fill(pink);
+  text(" Female:"+str(int(city.female)),x+105,y-45);
+  fill(purple);
+  text("Households:" +str(int(city.households)),x+25+lerp(city.households/city.pop,0,lerp(city.pop/maxPop,0,200)),y+5);
+  fill(green);
+  text("Average Age:"+str((city.age)),x+10-lerp(city.age/maxAge,0,120),y+30);
+  popMatrix();
+  fill(purple);
+  rect(x-13,y-20,26,-1*lerp(city.households/city.pop,0,lerp(city.pop/maxPop,0,200)));
+  fill(green);
+  rect(x+13,y-20,25,lerp(city.age/maxAge,0,100));
+  
 }
 
 void refresh(){int cityindex=0,operatorindex=0,headerindex=0;
