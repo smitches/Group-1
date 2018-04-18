@@ -56,7 +56,7 @@ void setup(){
 
 void draw() {
   background(#FFEAF1);
-    //draw the axes and titles
+  //draw the axes and titles
   line(100,400,550,400);
   line(100, 80,100,400);
   textSize(25);
@@ -74,10 +74,8 @@ void draw() {
   textSize(14);
   for (int i = 0; i < 14; i ++){
       text(((i+1) * 5), 60, (385- (i * 23)));}
-  
   for (int j = 0; j < 15; j ++){
       line(90, (400 - (j * 23)), 110, (400 - (j * 23)));}
-  
   text("Black", 150,420);
   text("Brown", 250,420);
   text("Red", 350,420);
