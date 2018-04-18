@@ -80,27 +80,6 @@ class Bars {
     line(625,290,625,300);
     line(655,290,655,300);
     line(685,290,685,300);
-
-
-    
-    
-    /*draw the tick marks representing the days 1-10
-    line(510,240,510,260);
-    line(530,240,530,260);
-    line(550,240,550,260);
-    line(570,240,570,260);
-    line(590,240,590,260);
-    line(610,240,610,260);
-    line(630,240,630,260);
-    line(650,240,650,260);
-    line(670,240,670,260);
-    line(690,240,690,260);
-    
-    //draw the labels on the days
-    fill(0,0,0);
-    for (int i = 0; i < 10; i ++){
-      text(str(i+1),505 +(i*20),280);}*/
-    
     
 
     
