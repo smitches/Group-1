@@ -67,10 +67,24 @@ class Bars {
   
   void display(){
     
-    //draw the skeleton of the slider
-    line(500,250,700,250);
+    //Eye Color Label
+    line(625,145,743,145);
+    line(625,140,625,150);
+    line(654.5,140,654.5,150);
+    line(684,140,684,150);
+    line(713.5,140,713.5,150);
+    line(743,140,743,150);
     
-    //draw the tick marks representing the days 1-10
+    //Gender Label
+    line(625,295,685,295);
+    line(625,290,625,300);
+    line(655,290,655,300);
+    line(685,290,685,300);
+
+
+    
+    
+    /*draw the tick marks representing the days 1-10
     line(510,240,510,260);
     line(530,240,530,260);
     line(550,240,550,260);
@@ -85,7 +99,7 @@ class Bars {
     //draw the labels on the days
     fill(0,0,0);
     for (int i = 0; i < 10; i ++){
-      text(str(i+1),505 +(i*20),280);}
+      text(str(i+1),505 +(i*20),280);}*/
     
     
 

@@ -89,6 +89,7 @@ void draw() {
   GenSlide.update(mouseX, mouseY);
   GenSlide.display();
   bars.update();
+  bars.display();
  
 }
 void mousePressed() {

@@ -37,10 +37,6 @@ class Slider {
     rect(currentPos, y, h, h);
   }
   
-  float getVal() {
-    float t = (currentPos - minPos)/(maxPos - minPos);
-    return minVal*(1 - t) + maxVal*t;
-  }
   
   float getPer() {
     float t = (currentPos - minPos)/(maxPos - minPos);
