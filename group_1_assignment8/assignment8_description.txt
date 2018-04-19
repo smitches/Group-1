@@ -5,3 +5,7 @@ He also decided to put in a "random" button which made the search button more ob
 
 Krish did part 3. She figured out the XML and only had trouble with next and previous buttons. 
 Brian and Krish worked together to figure out the next and previous buttons.
+
+Part 1 is a bar graph for hair and eye color of males and females. It is interactive.
+Part 2 is an interactive way to visualize ZIP code data.
+Part 3 is a live RSS feed reader which categorized the New York Times topics
