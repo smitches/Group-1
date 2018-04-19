@@ -1,0 +1,7 @@
+Rachel did part 1. She ran into trouble implementing the slider but figured it out.
+
+Brian did part 2. He spent a long time doing the actual search, and the code did not end up looking tidy.
+He also decided to put in a "random" button which made the search button more obsolete
+
+Krish did part 3. She figured out the XML and only had trouble with next and previous buttons. 
+Brian and Krish worked together to figure out the next and previous buttons.
