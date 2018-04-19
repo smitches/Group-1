@@ -4,16 +4,23 @@ City[] display = new City[3];
 Radio[] maxormin = new Radio[3];
 Radio [] choosecity = new Radio [3];
 Radio [] choice = new Radio [7];
-RectButton rb;
+RectButton rb, rb2,rb3;
 float maxPop=0, maxAge=0, maxMale=0,maxHouse=0,maxSize=0;
+PImage house0,house1,house2;
 
 String error ="";
 
 String userInput="11111";
 
 void setup(){
-  size(500,500);
-  rb = new RectButton(width-100,120,100,50);
+  house1 = loadImage("house.png");
+  house2 = loadImage("house.png");
+  house0 = loadImage("house.png");
+  size(520,500);
+  rb2 = new RectButton(width-120,150,100,50);
+  rb = new RectButton(width-120,90,100,50);
+  rb3 = new RectButton(width-120,30,100,50);
+
   zipcode= loadTable("2010_Census_Populations_by_Zip_Code.csv","header");
   
   PVector shift= new PVector(280,20);
@@ -22,7 +29,7 @@ void setup(){
   maxormin[1]= new Radio(maxormin, 1, "just over",x+shift.x, y*2+shift.y);
   maxormin[2]=new Radio(maxormin,2,"equals",x+shift.x,y*3+shift.y);
   shift.y=-10;
-  shift.x=10;
+  shift.x=100;
   x=80; y=30;
   choosecity[0]= new Radio(choosecity, 0, "City 1",x*0+shift.x, y+shift.y);
   choosecity[1]= new Radio(choosecity,1, "City 2",x*1+shift.x, y + shift.y);
@@ -56,7 +63,7 @@ void setup(){
     float household =r.getFloat(5);
     float housesize=r.getFloat(6);
     City newcity = new City(zip,pop,age,male,female,household,housesize);
-    cities.add(newcity);
+    if(newcity.pop>0){cities.add(newcity);}
   }
   println(cities.get(0).zip);
   for (i=0; i<3; i++){
@@ -68,12 +75,10 @@ void setup(){
 void draw(){
   background(40);
   noStroke();
-  fill(150);
-  textSize(20);
-  rect(width-90,55,85,50);
-  fill(255);
-  textAlign(CENTER);
-  text(userInput,width-48,85);
+  textAlign(LEFT);
+  textSize(14);
+  text("Assign to:",10,25);
+  text("(by searching below)",320,25);
   textAlign(LEFT);
   text(error, 23,170);
   fill(255);
@@ -104,15 +109,33 @@ void draw(){
     r.display();
   }
   strokeWeight(0);
+  rb2.display();
+  rb3.display();
   rb.display();
+  textSize(20);
   fill(255);
-  text("Search and\nSet new ZIP",rb.x+5,rb.y+15);
+  textAlign(CENTER);
+  text(userInput,width-68,rb3.y+35);
+  
+  fill(255);
+  textSize(28);
+  text("Search",rb.x+50,rb.y+35);
+  textSize(24);
+  text("Random",rb2.x+50, rb2.y+35);
 }
 
 void mouseClicked(){for (Radio r : maxormin){if (r.inRange()){r.check();}}
                     for (Radio r : choosecity){if (r.inRange()){r.check();}}
                     for (Radio r : choice){if (r.inRange()){r.check();}}
                     if (rb.inRange()){refresh();}
+                    if (rb2.inRange()){display[0]=cities.get(int(random(0,cities.size())));
+                    display[1]=cities.get(int(random(0,cities.size())));
+                    display[2]=cities.get(int(random(0,cities.size())));
+                    house1 = loadImage("house.png");
+  house2 = loadImage("house.png");
+  house0 = loadImage("house.png");
+  
+                    }
                   }
 
 void keyPressed(){ if ((key==BACKSPACE||key==DELETE)&&userInput.length()>0){userInput=userInput.substring(0,userInput.length()-1);}
@@ -126,9 +149,9 @@ void display(City city, int i){
   color purple = color(208,117,247);
   textAlign(CENTER);
   float x,y=height-50;
-  if (i==1){x=width/2;}
-  else if (i==0){x=90;}
-  else {x=width-90;}
+  if (i==1){x=width/2-10;}
+  else if (i==0){x=80;}
+  else {x=width-105;}
   fill(255);
   text(str(int(city.zip))+"\nCity "+str(i+1),x,y);
   //put the bar graphs associated with the city above the zip code
@@ -136,6 +159,23 @@ void display(City city, int i){
   rect(x-38,y-20,25,lerp(city.pop/maxPop,0,200));
   fill(blue);
   rect(x-38,y-20,25,-1*lerp(city.male/city.pop,0,lerp(city.pop/maxPop,0,200)));
+  
+  int rx=0,ry=0;
+  imageMode(CENTER);
+  if(city.householdsize<1/14){city.householdsize=1/14;}
+  if (i==0){rx=ry=int(14*city.householdsize);
+            
+            house0.resize(rx,ry);
+            rx+=35;
+          image(house0,x+65,y-ry-(40-ry)/2);}
+  if (i==1){rx=ry=int(14*city.householdsize);
+            house1.resize(rx,ry);
+        rx+=35;  
+        image(house1,x+65,y-ry-(40-ry)/2);}
+  if (i==2){rx=ry=int(14*city.householdsize);
+            house2.resize(rx,ry);
+          rx+=35;image(house2,x+65,y-ry-(40-ry)/2);}
+            
   pushMatrix();
   translate(x,y);
   rotate(-PI/2);
@@ -150,12 +190,15 @@ void display(City city, int i){
   text("Households:" +str(int(city.households)),x+25+lerp(city.households/city.pop,0,lerp(city.pop/maxPop,0,200)),y+5);
   fill(green);
   text("Average Age:"+str((city.age)),x+10-lerp(city.age/maxAge,0,120),y+30);
+  fill(255);
+  text("Household Size:"+str(city.householdsize),x+ry+25,y+70);
   popMatrix();
+  
+  
   fill(purple);
   rect(x-13,y-20,26,-1*lerp(city.households/city.pop,0,lerp(city.pop/maxPop,0,200)));
   fill(green);
   rect(x+13,y-20,25,lerp(city.age/maxAge,0,100));
-  
 }
 
 void refresh(){int cityindex=0,operatorindex=0,headerindex=0;
@@ -360,5 +403,9 @@ void refresh(){int cityindex=0,operatorindex=0,headerindex=0;
                                                              }
       
                                            }
+                                           house1 = loadImage("house.png");
+  house2 = loadImage("house.png");
+  house0 = loadImage("house.png");
+  
                  
 }

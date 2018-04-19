@@ -18,7 +18,7 @@ class RectButton extends Button{
     this.w=w; this.h=h;
   }
   boolean inRange(){ return (x<mouseX && mouseX<(x+w) && y<mouseY && mouseY<(y+h));}
-  void display(){ fill(0,0,200); rect(x,y,w,h);}
+  void display(){ fill(150,150,200); rect(x,y,w,h);}
 }
 
 class Radio {
